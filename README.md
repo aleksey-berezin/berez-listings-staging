@@ -1,20 +1,28 @@
-# Berez Group Listings - Staging Data
+# Berez Listings Staging Repository
 
-Live staging data for Berez Group real estate listings.
+This repository contains staging data for Berez Group property listings.
 
 ## Status
-- **Last Scraped**: 2025-07-19 15:21 UTC / **2025-07-19 15:21 PDT**
-- **Last Uploaded**: Never
-- **Upload Reason**: No upload data available
-- **Total Listings**: 3
 
-## Listings by Property
-- **459 Rock Apartments**: 2 listings
-- **Lincoln Court Townhomes**: 1 listings
+- **Last Scraped**: Never
+- **Last Upload**: Never  
+- **Total Listings**: 0
+- **Properties**: None
 
-## Data Sources
-- 459 Rock Apartments
-- Lincoln Court Townhomes  
-- Berez Group Master
+## Repository Structure
 
-*Updated automatically via GitHub Actions*
+This repository is organized with:
+- **Property-specific folders** for individual property listings
+- **Berez folder** for master listings file
+- **Metrics files** at root level for status tracking
+
+## Next Workflow Run
+
+The next automated workflow run will:
+1. Scrape current listings from all properties
+2. Organize files into property-specific folders
+3. Update metrics and README with current status
+
+---
+
+*This repository is automatically updated by GitHub Actions workflows.*
