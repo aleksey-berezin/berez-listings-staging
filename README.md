@@ -12,15 +12,13 @@ This repository contains **live staging data** for Berez Group real estate listi
 ## 📊 Data Status
 
 ### 🕒 Last Update
-**Last Scraped**: Based on file timestamps  
+**Last Scraped**: 2025-07-19 21:08:24 UTC (Duration: 4.6s)  
 **Data Age**: Current  
-**Status**: ✅ Repository Active
+**Status**: ✅ Operational
 
 ### 📈 Current Coverage
-- **459 Rock Apartments**: 2 listings
-- **Lincoln Court Townhomes**: 1 listings  
-- **Berez Group Master**: 3 listings
-- **Total Listings**: 6 listings
+**Total Listings**: 6 listings  
+**Properties**: Berez, Lincoln Court Townhomes, 459 Rock Apartments
 
 ### ✅ Data Quality
 - **Schema Validation**: ✅ All files validated
@@ -59,4 +57,14 @@ This repository contains **live staging data** for Berez Group real estate listi
 
 ---
 
+## 📤 Upload Status
+
+**Last Upload**: 2025-07-19 21:08:24 UTC  
+**Status**: ℹ️ No Recent Changes  
+**Reason**: No changes - upload skipped
+
+---
+
 *This data is automatically maintained by the Berez Group Listings Scrapy system. Repository contains 6 total listings across 3 properties.*
+
+*Last README update: 2025-07-19 21:08:24 UTC*
