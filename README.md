@@ -3,9 +3,9 @@
 Live staging data for Berez Group real estate listings.
 
 ## Status
-- **Last Scraped**: 2025-07-19 22:50 UTC / **2025-07-19 15:50 PDT**
-- **Last Uploaded**: 2025-07-19 22:50 UTC / **2025-07-19 15:50 PDT**
-- **Upload Reason**: Real data changes detected - files updated
+- **Last Scraped**: 2025-07-19 22:51 UTC / **2025-07-19 15:51 PDT**
+- **Last Uploaded**: 2025-07-19 22:52 UTC / **2025-07-19 15:52 PDT**
+- **Upload Reason**: No listing changes - metrics and README updated
 - **Total Listings**: 6
 
 ## Listings by Property
@@ -19,3 +19,12 @@ Live staging data for Berez Group real estate listings.
 - Berez Group Master
 
 *Updated automatically via GitHub Actions*
+
+
+## Schedule
+
+**Monday - Saturday**: 7:00 AM - 7:00 PM PDT every 15 minutes  
+**Sunday**: 4 times per day (6:00 AM, 12:00 PM, 6:00 PM, 12:00 AM PDT)  
+**After Hours**: Every 3 hours (9:00 PM, 12:00 AM, 3:00 AM, 6:00 AM PDT)
+
+*See SCHEDULE.md for detailed information*
