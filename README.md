@@ -3,15 +3,13 @@
 Live staging data for Berez Group real estate listings.
 
 ## Status
-- **Last Scraped**: 2025-07-19 22:51 UTC / **2025-07-19 15:51 PDT**
-- **Last Uploaded**: 2025-07-19 22:52 UTC / **2025-07-19 15:52 PDT**
-- **Upload Reason**: No listing changes - metrics and README updated
-- **Total Listings**: 6
+- **Last Scraped**: Never
+- **Last Uploaded**: 2025-07-19 23:40 UTC / **2025-07-19 16:40 PDT**
+- **Upload Reason**: Data changes detected - files updated
+- **Total Listings**: 0
 
 ## Listings by Property
-- **Berez**: 3 listings
-- **Lincoln Court Townhomes**: 1 listings
-- **459 Rock Apartments**: 2 listings
+- No listings data available
 
 ## Data Sources
 - 459 Rock Apartments
@@ -19,7 +17,6 @@ Live staging data for Berez Group real estate listings.
 - Berez Group Master
 
 *Updated automatically via GitHub Actions*
-
 
 ## Schedule
 
