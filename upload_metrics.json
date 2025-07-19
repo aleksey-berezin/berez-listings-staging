@@ -1,8 +1,8 @@
 {
-  "upload_timestamp": "2025-07-19T23:37:55Z",
+  "upload_timestamp": "2025-07-19T23:40:12Z",
   "changes_detected": true,
   "changed_files": " 459 Rock Apartments/459_rock_apartments_listings.json Berez/berez_listings.json",
   "upload_reason": "Data changes detected - files updated",
-  "workflow_run_id": "16393845754",
+  "workflow_run_id": "16393862422",
   "triggered_by": "push"
 }
