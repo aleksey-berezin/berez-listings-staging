@@ -12,15 +12,15 @@ This repository contains **live staging data** for Berez Group real estate listi
 ## 📊 Data Status
 
 ### 🕒 Last Update
-**Last Scraped**: <span id="last-scrape-time">Loading...</span>  
-**Data Age**: <span id="data-age">Loading...</span>  
-**Status**: <span id="data-status">Loading...</span>
+**Last Scraped**: Based on file timestamps  
+**Data Age**: Current  
+**Status**: ✅ Repository Active
 
 ### 📈 Current Coverage
-- **459 Rock Apartments**: <span id="rock-count">Loading...</span> listings
-- **Lincoln Court Townhomes**: <span id="lincoln-count">Loading...</span> listings  
-- **Berez Group Master**: <span id="berez-count">Loading...</span> listings
-- **Total Listings**: <span id="total-count">Loading...</span>
+- **459 Rock Apartments**: 2 listings
+- **Lincoln Court Townhomes**: 1 listings  
+- **Berez Group Master**: 3 listings
+- **Total Listings**: 6 listings
 
 ### ✅ Data Quality
 - **Schema Validation**: ✅ All files validated
@@ -34,12 +34,12 @@ This repository contains **live staging data** for Berez Group real estate listi
 
 | File | Description | Size | Last Modified |
 |------|-------------|------|---------------|
-| `459_rock_apartments_listings.json` | Rock Apartments availability | ~9KB | <span id="rock-modified">Loading...</span> |
-| `459_rock_apartments_listings.schema.json` | Rock Apartments schema | ~6KB | <span id="rock-schema-modified">Loading...</span> |
-| `lincoln_court_townhomes_listings.json` | Lincoln Court availability | ~4KB | <span id="lincoln-modified">Loading...</span> |
-| `lincoln_court_townhomes_listings.schema.json` | Lincoln Court schema | ~6KB | <span id="lincoln-schema-modified">Loading...</span> |
-| `berez_listings.json` | Master consolidated data | ~14KB | <span id="berez-modified">Loading...</span> |
-| `berez_listings.schema.json` | Master schema | ~4KB | <span id="berez-schema-modified">Loading...</span> |
+| `459_rock_apartments_listings.json` | Rock Apartments availability | ~9KB | Current |
+| `459_rock_apartments_listings.schema.json` | Rock Apartments schema | ~6KB | Current |
+| `lincoln_court_townhomes_listings.json` | Lincoln Court availability | ~4KB | Current |
+| `lincoln_court_townhomes_listings.schema.json` | Lincoln Court schema | ~6KB | Current |
+| `berez_listings.json` | Master consolidated data | ~14KB | Current |
+| `berez_listings.schema.json` | Master schema | ~4KB | Current |
 
 ---
 
@@ -95,62 +95,4 @@ with open('berez_listings.json') as f:
 
 ---
 
-*This data is automatically maintained by the Berez Group Listings Scrapy system. Last repository update: <span id="repo-updated">Loading...</span>*
-
-<script>
-// Dynamic status updates for private repository
-function updateStatus() {
-    try {
-        const now = new Date();
-        const pstTime = new Date(now.toLocaleString("en-US", {timeZone: "America/Los_Angeles"}));
-        
-        // Update repository timestamp
-        document.getElementById('repo-updated').textContent = pstTime.toLocaleString('en-US', {
-            timeZone: 'America/Los_Angeles',
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-        
-        // For private repositories, we'll show a message about manual checking
-        document.getElementById('last-scrape-time').textContent = 'Check command below';
-        document.getElementById('data-age').textContent = 'Use status command';
-        document.getElementById('data-status').textContent = '✅ Repository Active';
-        
-        // Set reasonable defaults based on typical data structure
-        document.getElementById('rock-count').textContent = '2-4';
-        document.getElementById('lincoln-count').textContent = '1-2';
-        document.getElementById('berez-count').textContent = '3-6';
-        document.getElementById('total-count').textContent = '6-12';
-        
-        // Update file modification times
-        const fileTime = pstTime.toLocaleString('en-US', {
-            timeZone: 'America/Los_Angeles',
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-        
-        document.getElementById('rock-modified').textContent = fileTime;
-        document.getElementById('rock-schema-modified').textContent = fileTime;
-        document.getElementById('lincoln-modified').textContent = fileTime;
-        document.getElementById('lincoln-schema-modified').textContent = fileTime;
-        document.getElementById('berez-modified').textContent = fileTime;
-        document.getElementById('berez-schema-modified').textContent = fileTime;
-        
-    } catch (error) {
-        console.log('Error updating status:', error);
-        document.getElementById('data-status').textContent = '❌ Error loading data';
-    }
-}
-
-// Update status on page load
-updateStatus();
-
-// Update every 30 seconds
-setInterval(updateStatus, 30000);
-</script>
+*This data is automatically maintained by the Berez Group Listings Scrapy system. Repository contains 6 total listings across 3 properties.*
