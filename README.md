@@ -30,19 +30,6 @@ This repository contains **live staging data** for Berez Group real estate listi
 
 ---
 
-## 📁 Data Files
-
-| File | Description | Size | Last Modified |
-|------|-------------|------|---------------|
-| `459_rock_apartments_listings.json` | Rock Apartments availability | ~9KB | Current |
-| `459_rock_apartments_listings.schema.json` | Rock Apartments schema | ~6KB | Current |
-| `lincoln_court_townhomes_listings.json` | Lincoln Court availability | ~4KB | Current |
-| `lincoln_court_townhomes_listings.schema.json` | Lincoln Court schema | ~6KB | Current |
-| `berez_listings.json` | Master consolidated data | ~14KB | Current |
-| `berez_listings.schema.json` | Master schema | ~4KB | Current |
-
----
-
 ## 🔄 Update Process
 
 ### Automated Workflow
@@ -69,29 +56,6 @@ This repository contains **live staging data** for Berez Group real estate listi
 - **459 Rock Apartments**: Real-time availability and pricing
 - **Lincoln Court Townhomes**: Current listings and details
 - **Berez Group Master**: Consolidated property data
-
----
-
-## 🔍 Quick Status Check
-
-To see the current data status, run this command in the repository:
-
-```bash
-# Count listings in each file
-for file in *_listings.json; do
-    echo "$file: $(python3 -c "import json; print(len(json.load(open('$file'))['listings']))")"
-done
-
-# Check last update time
-python3 -c "
-import json
-from datetime import datetime
-with open('berez_listings.json') as f:
-    data = json.load(f)
-    last_update = data.get('metadata', {}).get('last_updated', 'Unknown')
-    print(f'Last updated: {last_update}')
-"
-```
 
 ---
 
