@@ -76,36 +76,118 @@ This repository contains **live staging data** for Berez Group real estate listi
 
 <script>
 // Dynamic status updates
-function updateStatus() {
-    const now = new Date();
-    const pstTime = new Date(now.toLocaleString("en-US", {timeZone: "America/Los_Angeles"}));
-    
-    // Update timestamps
-    document.getElementById('repo-updated').textContent = pstTime.toLocaleString('en-US', {
-        timeZone: 'America/Los_Angeles',
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-    });
-    
-    // Simulate data updates (in real implementation, these would read from JSON files)
-    document.getElementById('last-scrape-time').textContent = '2025-07-19 13:14 PST';
-    document.getElementById('data-age').textContent = '2 minutes ago';
-    document.getElementById('data-status').textContent = '✅ Live';
-    document.getElementById('rock-count').textContent = '2';
-    document.getElementById('lincoln-count').textContent = '1';
-    document.getElementById('berez-count').textContent = '3';
-    document.getElementById('total-count').textContent = '6';
-    
-    // File modification times
-    document.getElementById('rock-modified').textContent = '2025-07-19 13:14 PST';
-    document.getElementById('rock-schema-modified').textContent = '2025-07-19 13:14 PST';
-    document.getElementById('lincoln-modified').textContent = '2025-07-19 13:14 PST';
-    document.getElementById('lincoln-schema-modified').textContent = '2025-07-19 13:14 PST';
-    document.getElementById('berez-modified').textContent = '2025-07-19 13:14 PST';
-    document.getElementById('berez-schema-modified').textContent = '2025-07-19 13:14 PST';
+async function updateStatus() {
+    try {
+        const now = new Date();
+        const pstTime = new Date(now.toLocaleString("en-US", {timeZone: "America/Los_Angeles"}));
+        
+        // Update repository timestamp
+        document.getElementById('repo-updated').textContent = pstTime.toLocaleString('en-US', {
+            timeZone: 'America/Los_Angeles',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        
+        // Read real data from JSON files
+        const files = [
+            '459_rock_apartments_listings.json',
+            'lincoln_court_townhomes_listings.json', 
+            'berez_listings.json'
+        ];
+        
+        let totalListings = 0;
+        let lastScrapeTime = null;
+        
+        for (const file of files) {
+            try {
+                const response = await fetch(file);
+                if (response.ok) {
+                    const data = await response.json();
+                    const listings = data.listings || [];
+                    const count = listings.length;
+                    totalListings += count;
+                    
+                    // Get last scrape time from metadata
+                    if (data.metadata && data.metadata.last_updated) {
+                        const scrapeTime = new Date(data.metadata.last_updated);
+                        if (!lastScrapeTime || scrapeTime > lastScrapeTime) {
+                            lastScrapeTime = scrapeTime;
+                        }
+                    }
+                    
+                    // Update specific property counts
+                    if (file.includes('459_rock')) {
+                        document.getElementById('rock-count').textContent = count;
+                    } else if (file.includes('lincoln')) {
+                        document.getElementById('lincoln-count').textContent = count;
+                    } else if (file.includes('berez_listings')) {
+                        document.getElementById('berez-count').textContent = count;
+                    }
+                }
+            } catch (error) {
+                console.log(`Error reading ${file}:`, error);
+            }
+        }
+        
+        // Update total count
+        document.getElementById('total-count').textContent = totalListings;
+        
+        // Update scrape time and age
+        if (lastScrapeTime) {
+            const pstScrapeTime = new Date(lastScrapeTime.toLocaleString("en-US", {timeZone: "America/Los_Angeles"}));
+            document.getElementById('last-scrape-time').textContent = pstScrapeTime.toLocaleString('en-US', {
+                timeZone: 'America/Los_Angeles',
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            
+            // Calculate age
+            const ageDiff = pstTime - pstScrapeTime;
+            if (ageDiff.days > 0) {
+                document.getElementById('data-age').textContent = `${Math.floor(ageDiff / (1000 * 60 * 60 * 24))} day(s) ago`;
+            } else if (ageDiff > 3600000) {
+                const hours = Math.floor(ageDiff / (1000 * 60 * 60));
+                document.getElementById('data-age').textContent = `${hours} hour(s) ago`;
+            } else {
+                const minutes = Math.floor(ageDiff / (1000 * 60));
+                document.getElementById('data-age').textContent = `${minutes} minute(s) ago`;
+            }
+            
+            document.getElementById('data-status').textContent = '✅ Live';
+        } else {
+            document.getElementById('last-scrape-time').textContent = 'No recent data';
+            document.getElementById('data-age').textContent = 'Unknown';
+            document.getElementById('data-status').textContent = '⚠️ No recent data';
+        }
+        
+        // Update file modification times (simplified)
+        const fileTime = pstTime.toLocaleString('en-US', {
+            timeZone: 'America/Los_Angeles',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        
+        document.getElementById('rock-modified').textContent = fileTime;
+        document.getElementById('rock-schema-modified').textContent = fileTime;
+        document.getElementById('lincoln-modified').textContent = fileTime;
+        document.getElementById('lincoln-schema-modified').textContent = fileTime;
+        document.getElementById('berez-modified').textContent = fileTime;
+        document.getElementById('berez-schema-modified').textContent = fileTime;
+        
+    } catch (error) {
+        console.log('Error updating status:', error);
+        // Set fallback values
+        document.getElementById('data-status').textContent = '❌ Error loading data';
+    }
 }
 
 // Update status on page load
