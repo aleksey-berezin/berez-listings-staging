@@ -1,0 +1,86 @@
+{
+  "scrape_date": "2025-07-19T20:11:03.168509+00:00",
+  "listings": [
+    {
+      "source": "oregon",
+      "address": {
+        "raw": "230 Lincoln St, Unit 111, Fairview, OR 97024",
+        "street_number": "230",
+        "street_name": "Lincoln",
+        "street_type": "St",
+        "unit": "111",
+        "city": "Fairview",
+        "state": "OR",
+        "zip_code": "97024"
+      },
+      "listing_urls": {
+        "listing_id": "13cef9b0-59d3-4292-b59e-e1f30e74d97c",
+        "view_details_url": "https://tmgoregon.appfolio.com/listings/detail/13cef9b0-59d3-4292-b59e-e1f30e74d97c",
+        "apply_now_url": "https://tmgoregon.appfolio.com/listings/rental_applications/new?listable_uid=13cef9b0-59d3-4292-b59e-e1f30e74d97c&source=Website",
+        "schedule_showing_url": "https://tmgoregon.appfolio.com/listings/showings/new?listable_uid=13cef9b0-59d3-4292-b59e-e1f30e74d97c",
+        "property_website_url": "https://lincolntownhomes.com"
+      },
+      "unit_details": {
+        "beds": 2.0,
+        "baths": 1.5,
+        "square_feet": 864,
+        "available": "8/11/25"
+      },
+      "rental_terms": {
+        "rent": 1475,
+        "application_fee": 65,
+        "security_deposit": 1475,
+        "flex_rent_program": true
+      },
+      "pet_policy": {
+        "pet_rent": 35,
+        "pet_deposit": 500,
+        "pets_allowed": {
+          "allowed": true,
+          "allowed_types": [
+            "cats",
+            "dogs"
+          ],
+          "weight_limit": null,
+          "size_restrictions": []
+        }
+      },
+      "appliances": [
+        "Dishwasher",
+        "Microwave",
+        "Range",
+        "Refrigerator/Freezer"
+      ],
+      "photos": [
+        "https://images.cdn.appfolio.com/tmgoregon/images/e77071ff-a322-467c-bed2-b2de9e16e465/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/4b237699-1d09-4342-b74d-865b0b0f632b/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/ff688c33-c248-4f9a-a15f-e7a28ac1735b/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/aa072454-4b0f-4c75-8607-2c315f7cf5d1/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/8f7f9b6f-9278-4028-bc82-ad5bc698ed42/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/b2a2cda4-14c1-4691-aaf5-182d4deebbb7/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/e5ddc2bf-9d01-43b9-8a28-eefc3b57c808/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/9b2f3bef-6fda-4a35-8321-da671a46f6b4/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/19745c84-1dc1-45d2-b477-e89059dfe9e7/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/1a812240-48ff-49e1-b93c-df7c2cb57219/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/c48b2513-5841-45b1-ab0f-1aa2ab358dc8/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/babfbe58-cad0-4a0b-82da-e440a0bf1da2/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/d1bbaac3-d8fe-406c-aeaf-001a2df8dcfd/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/8b1fc0ae-8aac-4da7-8b2b-b929c4b9ca6c/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/8a609858-be9f-4907-ac30-0aa3307c9408/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/79fe1a99-aed0-4f28-8d5e-74c1c6a043f9/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/16ea3c7c-325c-4509-9865-9534ff132db2/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/7a17fc77-a5e3-41b9-be72-daf6775f848e/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/f50fdf7d-92e8-4d08-bf0c-34555d9e7012/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/8bbc1dae-3980-49e7-8738-9f7366c852dc/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/a45df5ae-3d8f-44a0-be7a-9a62f340d6c9/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/d93e846c-6308-4b26-91ab-1ae5168b6920/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/77aeb51e-7ac6-4639-a78a-53c73fa10e83/original.jpg"
+      ],
+      "special_offer": {
+        "flag": false,
+        "text": null
+      },
+      "property_name": "Lincoln Court Townhomes"
+    }
+  ]
+}
