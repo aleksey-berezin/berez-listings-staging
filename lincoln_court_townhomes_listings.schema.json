@@ -1,0 +1,240 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LincolnCourtTownhomesListingItem",
+  "type": "object",
+  "properties": {
+    "scrape_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "listings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "property_name": {
+            "type": "string"
+          },
+          "address": {
+            "type": "object",
+            "properties": {
+              "raw": {
+                "type": "string"
+              },
+              "street_number": {
+                "type": "string"
+              },
+              "street_name": {
+                "type": "string"
+              },
+              "street_type": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "zip_code": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "raw",
+              "street_number",
+              "street_name",
+              "street_type",
+              "unit",
+              "city",
+              "state",
+              "zip_code"
+            ]
+          },
+          "listing_urls": {
+            "type": "object",
+            "properties": {
+              "listing_id": {
+                "type": "string"
+              },
+              "view_details_url": {
+                "type": "string"
+              },
+              "apply_now_url": {
+                "type": "string"
+              },
+              "schedule_showing_url": {
+                "type": "string"
+              },
+              "property_website_url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "listing_id",
+              "view_details_url",
+              "apply_now_url",
+              "schedule_showing_url",
+              "property_website_url"
+            ]
+          },
+          "unit_details": {
+            "type": "object",
+            "properties": {
+              "beds": {
+                "type": "number"
+              },
+              "baths": {
+                "type": "number"
+              },
+              "square_feet": {
+                "type": "number"
+              },
+              "available": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "beds",
+              "baths",
+              "square_feet",
+              "available"
+            ]
+          },
+          "rental_terms": {
+            "type": "object",
+            "properties": {
+              "rent": {
+                "type": "number"
+              },
+              "application_fee": {
+                "type": "number"
+              },
+              "security_deposit": {
+                "type": "number"
+              },
+              "flex_rent_program": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "rent",
+              "application_fee",
+              "security_deposit"
+            ]
+          },
+          "pet_policy": {
+            "type": "object",
+            "properties": {
+              "pets_allowed": {
+                "type": "object",
+                "properties": {
+                  "allowed": {
+                    "type": "boolean"
+                  },
+                  "allowed_types": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "weight_limit": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "size_restrictions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "allowed",
+                  "allowed_types",
+                  "weight_limit",
+                  "size_restrictions"
+                ]
+              },
+              "pet_rent": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "pet_deposit": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "pets_allowed"
+            ]
+          },
+          "appliances": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "photos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "special_offer": {
+            "type": "object",
+            "properties": {
+              "flag": {
+                "type": "boolean"
+              },
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "flag",
+              "text"
+            ]
+          },
+          "utilities_included": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "source",
+          "property_name",
+          "address",
+          "listing_urls",
+          "unit_details",
+          "rental_terms",
+          "pet_policy",
+          "appliances",
+          "photos",
+          "special_offer"
+        ]
+      }
+    }
+  },
+  "required": [
+    "scrape_date",
+    "listings"
+  ]
+}
