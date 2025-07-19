@@ -1,37 +1,37 @@
 {
-  "scrape_timestamp": "2025-07-19T22:51:59.977805+00:00",
+  "scrape_timestamp": "2025-07-19T22:55:51.745896+00:00",
   "success": true,
-  "duration": 4.306344032287598,
+  "duration": 4.119632959365845,
   "files_generated": [
     {
       "name": "berez_listings.json",
       "size": 14150,
-      "modified": "2025-07-19T22:51:59.739551+00:00"
+      "modified": "2025-07-19T22:55:51.525410+00:00"
     },
     {
       "name": "lincoln_court_townhomes_listings.schema.json",
       "size": 5921,
-      "modified": "2025-07-19T22:51:59.741551+00:00"
+      "modified": "2025-07-19T22:55:51.527410+00:00"
     },
     {
       "name": "459_rock_apartments_listings.schema.json",
       "size": 5918,
-      "modified": "2025-07-19T22:51:59.740551+00:00"
+      "modified": "2025-07-19T22:55:51.526410+00:00"
     },
     {
       "name": "lincoln_court_townhomes_listings.json",
       "size": 4307,
-      "modified": "2025-07-19T22:51:59.740551+00:00"
+      "modified": "2025-07-19T22:55:51.526410+00:00"
     },
     {
       "name": "berez_listings.schema.json",
       "size": 4009,
-      "modified": "2025-07-19T22:51:43.086968+00:00"
+      "modified": "2025-07-19T22:55:36.416295+00:00"
     },
     {
       "name": "459_rock_apartments_listings.json",
       "size": 9918,
-      "modified": "2025-07-19T22:51:59.739551+00:00"
+      "modified": "2025-07-19T22:55:51.526410+00:00"
     }
   ],
   "error_message": "Unknown error",
