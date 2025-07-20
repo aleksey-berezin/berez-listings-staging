@@ -1,8 +1,7 @@
 {
-  "upload_timestamp": "2025-07-20T02:43:00Z",
-  "changes_detected": false,
-  "changed_files": "",
-  "upload_reason": "No listing changes - metrics and README updated",
-  "workflow_run_id": "16395255277",
+  "upload_timestamp": "2025-07-20T02:58:15Z",
+  "changes_detected": "true",
+  "upload_reason": "Data changes detected - files updated",
+  "workflow_run_id": "16395375391",
   "triggered_by": "push"
 }
