@@ -51,6 +51,9 @@ jobs:
           git clone https://x-access-token:${{ secrets.DEPLOY_PAT }}@github.com/${{ secrets.PLUCKY_OUTLET_REPO }}.git target-repo
           cd target-repo
           
+          # Create the target directory
+          mkdir -p "src/_data/scraper"
+          
           # Process each changed property
           IFS=',' read -ra PROPERTIES <<< "$CHANGED"
           for property in "${PROPERTIES[@]}"; do
@@ -59,27 +62,24 @@ jobs:
             
             echo "Processing $property..."
             
-            # Create property directory
-            mkdir -p "$property"
-            
             # Copy listing and schema files (if they exist and are newer)
             for file in "${filename}_listings.json" "${filename}_listings.schema.json"; do
               local_file="../$property/$file"
-              remote_file="$property/$file"
+              remote_file="src/_data/scraper/$file"
               
               if [ -f "$local_file" ]; then
                 # Get the commit date of the local file
                 local_commit_date=$(git log -1 --format="%ct" -- "$local_file" 2>/dev/null || echo "0")
                 
                 if [ ! -f "$remote_file" ]; then
-                  echo "Copying $file to $property/ (new file)"
+                  echo "Copying $file to src/_data/scraper/ (new file)"
                   cp "$local_file" "$remote_file"
                 else
                   # Get the commit date of the remote file (if it exists in git history)
                   remote_commit_date=$(git log -1 --format="%ct" -- "$remote_file" 2>/dev/null || echo "0")
                   
                   if [ "$local_commit_date" -gt "$remote_commit_date" ]; then
-                    echo "Copying $file to $property/ (local commit: $local_commit_date, remote: $remote_commit_date)"
+                    echo "Copying $file to src/_data/scraper/ (local commit: $local_commit_date, remote: $remote_commit_date)"
                     cp "$local_file" "$remote_file"
                   else
                     echo "Skipping $file (remote commit is newer or same)"
