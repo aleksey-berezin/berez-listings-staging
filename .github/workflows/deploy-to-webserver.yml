@@ -62,27 +62,22 @@ jobs:
             
             echo "Processing $property..."
             
-            # Copy listing and schema files (if they exist and are newer)
+            # Copy listing and schema files (if they exist)
             for file in "${filename}_listings.json" "${filename}_listings.schema.json"; do
               local_file="../$property/$file"
               remote_file="src/_data/scraper/$file"
               
               if [ -f "$local_file" ]; then
-                # Get the commit date of the local file
-                local_commit_date=$(git log -1 --format="%ct" -- "$local_file" 2>/dev/null || echo "0")
-                
                 if [ ! -f "$remote_file" ]; then
                   echo "Copying $file to src/_data/scraper/ (new file)"
                   cp "$local_file" "$remote_file"
                 else
-                  # Get the commit date of the remote file (if it exists in git history)
-                  remote_commit_date=$(git log -1 --format="%ct" -- "$remote_file" 2>/dev/null || echo "0")
-                  
-                  if [ "$local_commit_date" -gt "$remote_commit_date" ]; then
-                    echo "Copying $file to src/_data/scraper/ (local commit: $local_commit_date, remote: $remote_commit_date)"
+                  # Compare file contents to see if they're different
+                  if ! cmp -s "$local_file" "$remote_file"; then
+                    echo "Copying $file to src/_data/scraper/ (file content differs)"
                     cp "$local_file" "$remote_file"
                   else
-                    echo "Skipping $file (remote commit is newer or same)"
+                    echo "Skipping $file (file content is identical)"
                   fi
                 fi
               fi
