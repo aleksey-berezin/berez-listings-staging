@@ -1,0 +1,101 @@
+name: Deploy Property Listings to CloudCannon
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '459 Rock Apartments/**'
+      - 'Berez/**'
+      - 'Lincoln Court Townhomes/**'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Deploy changed properties
+        run: |
+          # Check for changed properties
+          PROPERTIES=("459 Rock Apartments" "Berez" "Lincoln Court Townhomes")
+          CHANGED=""
+          
+          for property in "${PROPERTIES[@]}"; do
+            if git log --name-only --pretty=format: HEAD~1..HEAD | grep -q "^${property}/"; then
+              CHANGED="$CHANGED,$property"
+            fi
+          done
+          
+          CHANGED="${CHANGED#,}"
+          
+          if [ -z "$CHANGED" ]; then
+            echo "No property changes detected"
+            exit 0
+          fi
+          
+          echo "Deploying changes for: $CHANGED"
+          
+          # Clone target repository
+          git clone https://x-access-token:${{ secrets.DEPLOY_PAT }}@github.com/${{ secrets.PLUCKY_OUTLET_REPO }}.git target-repo
+          cd target-repo
+          
+          # Process each changed property
+          IFS=',' read -ra PROPERTIES <<< "$CHANGED"
+          for property in "${PROPERTIES[@]}"; do
+            property=$(echo "$property" | xargs)
+            filename=$(echo "$property" | tr ' ' '_' | tr '[:upper:]' '[:lower:]')
+            
+            echo "Processing $property..."
+            
+            # Create property directory
+            mkdir -p "$property"
+            
+            # Copy listing and schema files (if they exist and are newer)
+            for file in "${filename}_listings.json" "${filename}_listings.schema.json"; do
+              local_file="../$property/$file"
+              remote_file="$property/$file"
+              
+              if [ -f "$local_file" ]; then
+                # Get the commit date of the local file
+                local_commit_date=$(git log -1 --format="%ct" -- "$local_file" 2>/dev/null || echo "0")
+                
+                if [ ! -f "$remote_file" ]; then
+                  echo "Copying $file to $property/ (new file)"
+                  cp "$local_file" "$remote_file"
+                else
+                  # Get the commit date of the remote file (if it exists in git history)
+                  remote_commit_date=$(git log -1 --format="%ct" -- "$remote_file" 2>/dev/null || echo "0")
+                  
+                  if [ "$local_commit_date" -gt "$remote_commit_date" ]; then
+                    echo "Copying $file to $property/ (local commit: $local_commit_date, remote: $remote_commit_date)"
+                    cp "$local_file" "$remote_file"
+                  else
+                    echo "Skipping $file (remote commit is newer or same)"
+                  fi
+                fi
+              fi
+            done
+          done
+          
+          # Commit and push if there are changes
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "Update property listings from staging - ${{ github.sha }}"
+            git push
+            echo "✅ Changes deployed to CloudCannon site"
+          else
+            echo "ℹ️ No changes to deploy"
+          fi
+      
+      - name: Deployment summary
+        if: success()
+        run: |
+          echo "## 🚀 Deployment Complete" >> $GITHUB_STEP_SUMMARY
+          echo "**Site:** https://plucky-outlet.cloudvent.net/listings/" >> $GITHUB_STEP_SUMMARY
+          echo "**Time:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "**Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY 
