@@ -5,22 +5,22 @@
     "individual_listings": {
       "3e934be4-3963-4c11-8373-944c848d2d5d": {
         "hash": "d5318bbd46a31dfba79a9e768ab9ad4fee61cba5a493ef4fec9a78e335d8cac0",
-        "last_updated": "2025-07-20T15:48:35.334490Z",
+        "last_updated": "2025-07-20T15:54:29.530770Z",
         "index": 0
       },
       "c8342eaa-d646-4bbc-8655-79df0cb73d55": {
         "hash": "4d94f09def4e7bd912662ac27dd891e3c06da90b5917ca4ee805184dbc26113c",
-        "last_updated": "2025-07-20T15:48:35.334541Z",
+        "last_updated": "2025-07-20T15:54:29.530865Z",
         "index": 1
       },
       "13cef9b0-59d3-4292-b59e-e1f30e74d97c": {
         "hash": "969f645a2979ae04edfa5e90932290903686364a58d797e12a640e176eea4c96",
-        "last_updated": "2025-07-20T15:48:35.334584Z",
+        "last_updated": "2025-07-20T15:54:29.530950Z",
         "index": 2
       }
     },
     "total_listings": 3,
-    "last_updated": "2025-07-20T15:48:35.334782Z",
+    "last_updated": "2025-07-20T15:54:29.531357Z",
     "file_name": "berez_listings.json"
   },
   "Lincoln Court Townhomes": {
@@ -29,12 +29,12 @@
     "individual_listings": {
       "13cef9b0-59d3-4292-b59e-e1f30e74d97c": {
         "hash": "8ad3b8c473aef4ea2c838fff5d38d6eebf7b79b0847903cf6dafce369ae0512d",
-        "last_updated": "2025-07-20T15:48:35.334950Z",
+        "last_updated": "2025-07-20T15:54:29.531669Z",
         "index": 0
       }
     },
     "total_listings": 1,
-    "last_updated": "2025-07-20T15:48:35.335132Z",
+    "last_updated": "2025-07-20T15:54:29.531977Z",
     "file_name": "lincoln_court_townhomes_listings.json"
   },
   "459 Rock Apartments": {
@@ -43,17 +43,17 @@
     "individual_listings": {
       "3e934be4-3963-4c11-8373-944c848d2d5d": {
         "hash": "360b64d99fa968b11cad07a8c88c8ecc3330e79f5d6b485ad0cba766a8220ab8",
-        "last_updated": "2025-07-20T15:48:35.335368Z",
+        "last_updated": "2025-07-20T15:54:29.532388Z",
         "index": 0
       },
       "c8342eaa-d646-4bbc-8655-79df0cb73d55": {
         "hash": "4f8e0e3345404c72975c17560c3300cd28b909ed15dce07320627a8890b2254f",
-        "last_updated": "2025-07-20T15:48:35.335416Z",
+        "last_updated": "2025-07-20T15:54:29.532487Z",
         "index": 1
       }
     },
     "total_listings": 2,
-    "last_updated": "2025-07-20T15:48:35.335594Z",
+    "last_updated": "2025-07-20T15:54:29.532815Z",
     "file_name": "459_rock_apartments_listings.json"
   }
 }
