@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       
       - name: Deploy changed properties
         run: |
@@ -23,11 +25,18 @@ jobs:
           PROPERTIES=("459 Rock Apartments" "Berez" "Lincoln Court Townhomes")
           CHANGED=""
           
-          for property in "${PROPERTIES[@]}"; do
-            if git log --name-only --pretty=format: HEAD~1..HEAD | grep -q "^${property}/"; then
-              CHANGED="$CHANGED,$property"
-            fi
-          done
+          # If manually triggered, deploy all properties
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual trigger detected - deploying all properties"
+            CHANGED="459 Rock Apartments,Berez,Lincoln Court Townhomes"
+          else
+            # Check for changed properties in the last commit
+            for property in "${PROPERTIES[@]}"; do
+              if git log --name-only --pretty=format: HEAD~1..HEAD | grep -q "^${property}/"; then
+                CHANGED="$CHANGED,$property"
+              fi
+            done
+          fi
           
           CHANGED="${CHANGED#,}"
           
