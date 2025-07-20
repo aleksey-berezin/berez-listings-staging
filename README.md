@@ -3,8 +3,8 @@
 Live staging data for Berez Group real estate listings.
 
 ## Status
-- **Last Scraped**: 2025-07-20 16:02 UTC
-- **Last Uploaded**: 2025-07-20 16:02 UTC
+- **Last Scraped**: 2025-07-20 16:05 UTC
+- **Last Uploaded**: 2025-07-20 16:05 UTC
 - **Upload Reason**: Metrics update only
 - **Total Listings**: 0
 
@@ -20,7 +20,7 @@ Live staging data for Berez Group real estate listings.
 
 ## Schedule
 
-**Weekdays (Mon-Fri)**: Every 15 minutes during LA business hours (6AM-7PM)
-**Weekends**: 4 times per day during LA business hours
+• **Weekdays**: Every 15 minutes during LA business hours (6AM-7PM)
+• **Weekends**: 4 times per day during LA business hours
 
 *Automated via GitHub Actions*
