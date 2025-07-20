@@ -1,5 +1,5 @@
 {
-  "scrape_date": "2025-07-20T05:35:59.475027+00:00",
+  "scrape_date": "2025-07-20T15:01:11.146824+00:00",
   "listings": [
     {
       "property_name": "Lincoln Court Townhomes",
@@ -25,7 +25,8 @@
         "beds": 2.0,
         "baths": 1.5,
         "square_feet": 864,
-        "available": "8/11/25"
+        "available": "8/11/25",
+        "floorplan_name": "2 x 1.5"
       },
       "rental_terms": {
         "rent": 1475,

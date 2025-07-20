@@ -1,5 +1,5 @@
 {
-  "scrape_date": "2025-07-20T05:35:59.475027+00:00",
+  "scrape_date": "2025-07-20T15:01:11.146824+00:00",
   "listings": [
     {
       "property_name": "459 Rock Apartments",
@@ -25,7 +25,8 @@
         "beds": 2.0,
         "baths": 1.0,
         "square_feet": 818,
-        "available": "Available Now"
+        "available": "Available Now",
+        "floorplan_name": "The Stark"
       },
       "rental_terms": {
         "rent": 1825,
@@ -112,7 +113,8 @@
         "beds": 3.0,
         "baths": 2.0,
         "square_feet": 1183,
-        "available": "Available Now"
+        "available": "Available Now",
+        "floorplan_name": "The Birdsdale"
       },
       "rental_terms": {
         "rent": 1925,
