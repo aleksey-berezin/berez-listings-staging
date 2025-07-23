@@ -1,12 +1,12 @@
 {
-  "scrape_timestamp": "2025-07-23T23:51:37.636388+00:00",
+  "scrape_timestamp": "2025-07-23T23:53:15.599257+00:00",
   "success": true,
-  "duration": 6.983405351638794,
+  "duration": 6.370266914367676,
   "files_generated": [
     {
       "name": "berez_listings.json",
       "size": 14214,
-      "modified": "2025-07-23T23:51:37.630130+00:00",
+      "modified": "2025-07-23T23:53:15.593235+00:00",
       "path": "output/berez_listings.json",
       "listings_count": 3,
       "has_scrape_date": true
@@ -14,25 +14,25 @@
     {
       "name": "lincoln_court_townhomes_listings.schema.json",
       "size": 5921,
-      "modified": "2025-07-23T23:51:35.911117+00:00",
+      "modified": "2025-07-23T23:53:13.845192+00:00",
       "path": "output/lincoln_court_townhomes_listings.schema.json"
     },
     {
       "name": "459_rock_apartments_listings.schema.json",
       "size": 5918,
-      "modified": "2025-07-23T23:51:35.910117+00:00",
+      "modified": "2025-07-23T23:53:13.844192+00:00",
       "path": "output/459_rock_apartments_listings.schema.json"
     },
     {
       "name": "ci_metadata.json",
       "size": 538,
-      "modified": "2025-07-23T23:51:37.635130+00:00",
+      "modified": "2025-07-23T23:53:15.598236+00:00",
       "path": "output/ci_metadata.json"
     },
     {
       "name": "lincoln_court_townhomes_listings.json",
       "size": 4376,
-      "modified": "2025-07-23T23:51:37.630130+00:00",
+      "modified": "2025-07-23T23:53:15.593235+00:00",
       "path": "output/lincoln_court_townhomes_listings.json",
       "listings_count": 1,
       "has_scrape_date": true
@@ -40,13 +40,13 @@
     {
       "name": "berez_listings.schema.json",
       "size": 4009,
-      "modified": "2025-07-23T23:51:26.605043+00:00",
+      "modified": "2025-07-23T23:53:06.373019+00:00",
       "path": "output/berez_listings.schema.json"
     },
     {
       "name": "459_rock_apartments_listings.json",
       "size": 10032,
-      "modified": "2025-07-23T23:51:37.631130+00:00",
+      "modified": "2025-07-23T23:53:15.594235+00:00",
       "path": "output/459_rock_apartments_listings.json",
       "listings_count": 2,
       "has_scrape_date": true
