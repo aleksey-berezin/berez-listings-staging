@@ -1,12 +1,12 @@
 {
-  "scrape_timestamp": "2025-07-24T21:32:30.154051+00:00",
+  "scrape_timestamp": "2025-07-24T21:42:15.548909+00:00",
   "success": true,
-  "duration": 13.154448747634888,
+  "duration": 12.729571342468262,
   "files_generated": [
     {
       "name": "berez_listings.json",
       "size": 36314,
-      "modified": "2025-07-24T21:32:27.667520+00:00",
+      "modified": "2025-07-24T21:42:13.461138+00:00",
       "path": "output/berez_listings.json",
       "listings_count": 7,
       "has_scrape_date": true
@@ -14,7 +14,7 @@
     {
       "name": "459_Rock_Apartments_listings.json",
       "size": 31540,
-      "modified": "2025-07-24T21:32:27.668520+00:00",
+      "modified": "2025-07-24T21:42:13.463138+00:00",
       "path": "output/459_Rock_Apartments_listings.json",
       "listings_count": 6,
       "has_scrape_date": true
@@ -22,19 +22,19 @@
     {
       "name": "lincoln_court_townhomes_listings.schema.json",
       "size": 9070,
-      "modified": "2025-07-24T21:32:15.016478+00:00",
+      "modified": "2025-07-24T21:41:59.159206+00:00",
       "path": "output/lincoln_court_townhomes_listings.schema.json"
     },
     {
       "name": "459_Rock_Apartments_listings.schema.json",
       "size": 9062,
-      "modified": "2025-07-24T21:32:27.669520+00:00",
+      "modified": "2025-07-24T21:42:13.464138+00:00",
       "path": "output/459_Rock_Apartments_listings.schema.json"
     },
     {
       "name": "Lincoln_Court_Townhomes_listings.json",
       "size": 4843,
-      "modified": "2025-07-24T21:32:27.669520+00:00",
+      "modified": "2025-07-24T21:42:13.464138+00:00",
       "path": "output/Lincoln_Court_Townhomes_listings.json",
       "listings_count": 1,
       "has_scrape_date": true
@@ -42,25 +42,25 @@
     {
       "name": "459_rock_apartments_listings.schema.json",
       "size": 9062,
-      "modified": "2025-07-24T21:32:15.015478+00:00",
+      "modified": "2025-07-24T21:41:59.159206+00:00",
       "path": "output/459_rock_apartments_listings.schema.json"
     },
     {
       "name": "ci_metadata.json",
       "size": 538,
-      "modified": "2025-07-24T21:32:30.153527+00:00",
+      "modified": "2025-07-24T21:42:15.547128+00:00",
       "path": "output/ci_metadata.json"
     },
     {
       "name": "Lincoln_Court_Townhomes_listings.schema.json",
       "size": 9070,
-      "modified": "2025-07-24T21:32:27.670520+00:00",
+      "modified": "2025-07-24T21:42:13.465138+00:00",
       "path": "output/Lincoln_Court_Townhomes_listings.schema.json"
     },
     {
       "name": "lincoln_court_townhomes_listings.json",
       "size": 4843,
-      "modified": "2025-07-24T21:32:15.015478+00:00",
+      "modified": "2025-07-24T21:41:59.159206+00:00",
       "path": "output/lincoln_court_townhomes_listings.json",
       "listings_count": 1,
       "has_scrape_date": true
@@ -68,7 +68,7 @@
     {
       "name": "459_rock_apartments_listings.json",
       "size": 10495,
-      "modified": "2025-07-24T21:32:15.015478+00:00",
+      "modified": "2025-07-24T21:41:59.159206+00:00",
       "path": "output/459_rock_apartments_listings.json",
       "listings_count": 2,
       "has_scrape_date": true
@@ -85,7 +85,7 @@
     "github_sha": "f76cc426c234cc8f11f4e49d9645e52249dd7fb4"
   },
   "ci_performance": {
-    "memory_usage_mb": 24.56,
+    "memory_usage_mb": 24.59,
     "disk_usage_mb": 0.12,
     "file_count": 10
   }
