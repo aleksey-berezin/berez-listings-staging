@@ -1,46 +1,46 @@
 {
   "Berez": {
-    "listings_hash": "de7741c90bde764d7104fa241ba4e821452bad1559606e8083347f1668bdb6c1",
+    "listings_hash": "8ea1e8c1ef39dd1b0f2502c108d4fcb700130c918c211eabdabb0e7fdaa1935a",
     "schema_hash": null,
     "individual_listings": {
+      "c7f77972-d6b5-42df-a266-d48a9853bdf1": {
+        "hash": "c573b3eb6c2b6ffcef212bfe114448b845626c86f2cd2567c8b2f8e4c692ecd0",
+        "last_updated": "2025-07-24T22:13:05.578812Z",
+        "index": 0
+      },
       "a7a9656c-2882-4f80-be88-32ee438a5f74": {
         "hash": "4ddc37b1a450d0ff5fe175e7987c154dc192101b8362f1fac1adca5238e91285",
-        "last_updated": "2025-07-24T21:52:22.822150Z",
-        "index": 0
+        "last_updated": "2025-07-24T22:13:05.578867Z",
+        "index": 1
       },
       "c8342eaa-d646-4bbc-8655-79df0cb73d55": {
         "hash": "9a20051f2ba2c39b119f0114e0aa3f13b691c239bc9bc24ff501d8f03a081241",
-        "last_updated": "2025-07-24T21:52:22.822208Z",
-        "index": 1
-      },
-      "3e934be4-3963-4c11-8373-944c848d2d5d": {
-        "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
-        "last_updated": "2025-07-24T21:52:22.822257Z",
+        "last_updated": "2025-07-24T22:13:05.578915Z",
         "index": 2
-      },
-      "64a7164e-3ec6-496a-91d4-383a247cf264": {
-        "hash": "e7db90bddb1a6dcf4962310291982ea246f9931f4eae82274cfc1a126bd9a635",
-        "last_updated": "2025-07-24T21:52:22.822334Z",
-        "index": 3
-      },
-      "b51b716b-c53a-4302-8a8e-d29066a961e6": {
-        "hash": "1232e32794e087b88c69be6decb6038e034a743d3fc8b0b7b94f62768d7f3892",
-        "last_updated": "2025-07-24T21:52:22.822398Z",
-        "index": 4
-      },
-      "c7f77972-d6b5-42df-a266-d48a9853bdf1": {
-        "hash": "c573b3eb6c2b6ffcef212bfe114448b845626c86f2cd2567c8b2f8e4c692ecd0",
-        "last_updated": "2025-07-24T21:52:22.822447Z",
-        "index": 5
       },
       "13cef9b0-59d3-4292-b59e-e1f30e74d97c": {
         "hash": "ef8f95dd5526177b05b259eab486685338fa300938047c02032101447f71f785",
-        "last_updated": "2025-07-24T21:52:22.822503Z",
+        "last_updated": "2025-07-24T22:13:05.578966Z",
+        "index": 3
+      },
+      "3e934be4-3963-4c11-8373-944c848d2d5d": {
+        "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
+        "last_updated": "2025-07-24T22:13:05.579012Z",
+        "index": 4
+      },
+      "64a7164e-3ec6-496a-91d4-383a247cf264": {
+        "hash": "e7db90bddb1a6dcf4962310291982ea246f9931f4eae82274cfc1a126bd9a635",
+        "last_updated": "2025-07-24T22:13:05.579058Z",
+        "index": 5
+      },
+      "b51b716b-c53a-4302-8a8e-d29066a961e6": {
+        "hash": "1232e32794e087b88c69be6decb6038e034a743d3fc8b0b7b94f62768d7f3892",
+        "last_updated": "2025-07-24T22:13:05.579110Z",
         "index": 6
       }
     },
     "total_listings": 7,
-    "last_updated": "2025-07-24T21:52:22.822533Z",
+    "last_updated": "2025-07-24T22:13:05.579135Z",
     "file_name": "berez_listings.json"
   },
   "459 Rock Apartments": {
@@ -49,12 +49,12 @@
     "individual_listings": {
       "3e934be4-3963-4c11-8373-944c848d2d5d": {
         "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
-        "last_updated": "2025-07-24T21:52:22.824447Z",
+        "last_updated": "2025-07-24T22:13:05.581374Z",
         "index": 0
       },
       "c8342eaa-d646-4bbc-8655-79df0cb73d55": {
         "hash": "875a9b7d8ee47576ca2479f3ab0497d12e9d09b97564103ca3b5cfffbb731b3f",
-        "last_updated": "2025-07-24T21:52:22.824495Z",
+        "last_updated": "2025-07-24T22:13:05.581423Z",
         "index": 1
       }
     },
@@ -68,7 +68,7 @@
     "individual_listings": {
       "13cef9b0-59d3-4292-b59e-e1f30e74d97c": {
         "hash": "ef8f95dd5526177b05b259eab486685338fa300938047c02032101447f71f785",
-        "last_updated": "2025-07-24T21:52:22.824011Z",
+        "last_updated": "2025-07-24T22:13:05.580919Z",
         "index": 0
       }
     },
