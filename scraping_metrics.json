@@ -1,12 +1,12 @@
 {
-  "scrape_timestamp": "2025-07-24T02:08:42.231793+00:00",
+  "scrape_timestamp": "2025-07-24T02:09:42.611247+00:00",
   "success": true,
-  "duration": 6.580641031265259,
+  "duration": 6.11330509185791,
   "files_generated": [
     {
       "name": "berez_listings.json",
       "size": 15267,
-      "modified": "2025-07-24T02:08:42.225231+00:00",
+      "modified": "2025-07-24T02:09:42.605735+00:00",
       "path": "output/berez_listings.json",
       "listings_count": 3,
       "has_scrape_date": true
@@ -14,25 +14,25 @@
     {
       "name": "lincoln_court_townhomes_listings.schema.json",
       "size": 8990,
-      "modified": "2025-07-24T02:08:40.328027+00:00",
+      "modified": "2025-07-24T02:09:40.806731+00:00",
       "path": "output/lincoln_court_townhomes_listings.schema.json"
     },
     {
       "name": "459_rock_apartments_listings.schema.json",
       "size": 8987,
-      "modified": "2025-07-24T02:08:40.327028+00:00",
+      "modified": "2025-07-24T02:09:40.805731+00:00",
       "path": "output/459_rock_apartments_listings.schema.json"
     },
     {
       "name": "ci_metadata.json",
       "size": 562,
-      "modified": "2025-07-24T02:08:42.231232+00:00",
+      "modified": "2025-07-24T02:09:42.610735+00:00",
       "path": "output/ci_metadata.json"
     },
     {
       "name": "lincoln_court_townhomes_listings.json",
       "size": 4878,
-      "modified": "2025-07-24T02:08:42.225231+00:00",
+      "modified": "2025-07-24T02:09:42.605735+00:00",
       "path": "output/lincoln_court_townhomes_listings.json",
       "listings_count": 1,
       "has_scrape_date": true
@@ -40,13 +40,13 @@
     {
       "name": "berez_listings.schema.json",
       "size": 5726,
-      "modified": "2025-07-24T02:08:30.836678+00:00",
+      "modified": "2025-07-24T02:09:33.037713+00:00",
       "path": "output/berez_listings.schema.json"
     },
     {
       "name": "459_rock_apartments_listings.json",
       "size": 10575,
-      "modified": "2025-07-24T02:08:42.226232+00:00",
+      "modified": "2025-07-24T02:09:42.606735+00:00",
       "path": "output/459_rock_apartments_listings.json",
       "listings_count": 2,
       "has_scrape_date": true
@@ -60,10 +60,10 @@
     "github_actions": true,
     "runner_os": "Linux",
     "github_ref": "refs/heads/verification-system-improvements",
-    "github_sha": "f80bdb1b21b4a4f9f0acfbca2168ae48e8dad06e"
+    "github_sha": "862b9ff75776ef8c7115969e97e10129354b5b75"
   },
   "ci_performance": {
-    "memory_usage_mb": 16.51,
+    "memory_usage_mb": 16.25,
     "disk_usage_mb": 0.06,
     "file_count": 7
   }
