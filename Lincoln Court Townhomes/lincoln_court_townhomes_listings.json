@@ -1,9 +1,7 @@
 {
-  "scrape_date": "2025-07-23T20:37:56.666666+00:00",
+  "scrape_date": "2025-07-24T01:32:13.092Z",
   "listings": [
     {
-      "property_name": "Lincoln Court Townhomes",
-      "source": "oregon",
       "address": {
         "raw": "230 Lincoln St, Unit 111, Fairview, OR 97024",
         "street_number": "230",
@@ -25,18 +23,20 @@
         "beds": 2.0,
         "baths": 1.5,
         "square_feet": 864,
-        "available": "8/11/25",
+        "available": {
+          "status": "future",
+          "date": "8/11/25",
+          "display": "8/11/25"
+        },
         "floorplan_name": "2 x 1.5"
-      },
-      "rental_terms": {
-        "rent": 1475,
-        "application_fee": 65,
-        "security_deposit": 1475,
-        "flex_rent_program": true
       },
       "pet_policy": {
         "pet_rent": 35,
-        "pet_deposit": 500,
+        "pet_deposit_range": {
+          "min": 500,
+          "max": 800,
+          "display": "$500-$800"
+        },
         "pets_allowed": {
           "allowed": true,
           "allowed_types": [
@@ -44,15 +44,37 @@
             "dogs"
           ],
           "weight_limit": null,
-          "size_restrictions": []
+          "size_restrictions": null
         }
       },
-      "appliances": [
-        "Dishwasher",
-        "Microwave",
-        "Range",
-        "Refrigerator/Freezer"
-      ],
+      "rental_terms": {
+        "flex_rent_program": true,
+        "lease_term": {
+          "value": 12,
+          "unit": "months"
+        },
+        "non_smoking": true,
+        "renters_insurance": true,
+        "utilities:rubs": true,
+        "rent": {
+          "amount": 1475,
+          "currency": "USD",
+          "frequency": "monthly",
+          "unit": "dollars"
+        },
+        "application_fee": {
+          "amount": 65,
+          "currency": "USD",
+          "frequency": "one_time",
+          "unit": "dollars"
+        },
+        "security_deposit": {
+          "amount": 1475,
+          "currency": "USD",
+          "frequency": "one_time",
+          "unit": "dollars"
+        }
+      },
       "photos": [
         "https://images.cdn.appfolio.com/tmgoregon/images/e77071ff-a322-467c-bed2-b2de9e16e465/large.jpg",
         "https://images.cdn.appfolio.com/tmgoregon/images/4b237699-1d09-4342-b74d-865b0b0f632b/large.jpg",
@@ -81,8 +103,7 @@
       "special_offer": {
         "flag": false,
         "text": null
-      },
-      "utilities_included": []
+      }
     }
   ]
 }

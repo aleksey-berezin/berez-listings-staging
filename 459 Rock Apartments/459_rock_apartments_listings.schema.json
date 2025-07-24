@@ -12,12 +12,6 @@
       "items": {
         "type": "object",
         "properties": {
-          "source": {
-            "type": "string"
-          },
-          "property_name": {
-            "type": "string"
-          },
           "address": {
             "type": "object",
             "properties": {
@@ -97,7 +91,29 @@
                 "type": "number"
               },
               "available": {
-                "type": "string"
+                "type": "object",
+                "properties": {
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "immediate",
+                      "future"
+                    ]
+                  },
+                  "date": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "display": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "status",
+                  "display"
+                ]
               }
             },
             "required": [
@@ -111,22 +127,104 @@
             "type": "object",
             "properties": {
               "rent": {
-                "type": "number"
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number"
+                  },
+                  "currency": {
+                    "type": "string"
+                  },
+                  "frequency": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "amount",
+                  "currency",
+                  "frequency",
+                  "unit"
+                ]
               },
               "application_fee": {
-                "type": "number"
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number"
+                  },
+                  "currency": {
+                    "type": "string"
+                  },
+                  "frequency": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "amount",
+                  "currency",
+                  "frequency",
+                  "unit"
+                ]
               },
               "security_deposit": {
-                "type": "number"
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number"
+                  },
+                  "currency": {
+                    "type": "string"
+                  },
+                  "frequency": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "amount",
+                  "currency",
+                  "frequency",
+                  "unit"
+                ]
+              },
+              "lease_term": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "number"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value",
+                  "unit"
+                ]
+              },
+              "non_smoking": {
+                "type": "boolean"
+              },
+              "renters_insurance_required": {
+                "type": "boolean"
+              },
+              "utilities:rubs": {
+                "type": "boolean"
               },
               "flex_rent_program": {
                 "type": "boolean"
               }
             },
             "required": [
-              "rent",
-              "application_fee",
-              "security_deposit"
+              "rent"
             ]
           },
           "pet_policy": {
@@ -139,7 +237,10 @@
                     "type": "boolean"
                   },
                   "allowed_types": {
-                    "type": "array",
+                    "type": [
+                      "array",
+                      "null"
+                    ],
                     "items": {
                       "type": "string"
                     }
@@ -151,7 +252,10 @@
                     ]
                   },
                   "size_restrictions": {
-                    "type": "array",
+                    "type": [
+                      "array",
+                      "null"
+                    ],
                     "items": {
                       "type": "string"
                     }
@@ -170,10 +274,26 @@
                   "null"
                 ]
               },
-              "pet_deposit": {
+              "pet_deposit_range": {
                 "type": [
-                  "number",
+                  "object",
                   "null"
+                ],
+                "properties": {
+                  "min": {
+                    "type": "number"
+                  },
+                  "max": {
+                    "type": "number"
+                  },
+                  "display": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "min",
+                  "max",
+                  "display"
                 ]
               }
             },
@@ -182,13 +302,19 @@
             ]
           },
           "appliances": {
-            "type": "array",
+            "type": [
+              "array",
+              "null"
+            ],
             "items": {
               "type": "string"
             }
           },
           "photos": {
-            "type": "array",
+            "type": [
+              "array",
+              "null"
+            ],
             "items": {
               "type": "string"
             }
@@ -212,21 +338,21 @@
             ]
           },
           "utilities_included": {
-            "type": "array",
+            "type": [
+              "array",
+              "null"
+            ],
             "items": {
               "type": "string"
             }
           }
         },
         "required": [
-          "source",
-          "property_name",
           "address",
           "listing_urls",
           "unit_details",
           "rental_terms",
           "pet_policy",
-          "appliances",
           "photos",
           "special_offer"
         ]
