@@ -1,7 +1,7 @@
 {
-  "upload_timestamp": "2025-07-24T05:59:50Z",
+  "upload_timestamp": "2025-07-24T06:01:01Z",
   "changes_detected": "true",
   "upload_reason": "Data changes detected",
-  "workflow_run_id": "16489016108",
-  "triggered_by": "push"
+  "workflow_run_id": "16489034046",
+  "triggered_by": "workflow_dispatch"
 }
