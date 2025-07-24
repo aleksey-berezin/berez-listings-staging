@@ -94,7 +94,7 @@
                 "required": ["value", "unit"]
               },
               "non_smoking": { "type": "boolean" },
-              "renters_insurance_required": { "type": "boolean" },
+              "renters_insurance": { "type": "boolean" },
               "utilities:rubs": { "type": "boolean" },
               "flex_rent_program": { "type": "boolean" }
             },
@@ -126,10 +126,6 @@
             },
             "required": ["pets_allowed"]
           },
-          "appliances": {
-            "type": ["array", "null"],
-            "items": { "type": "string" }
-          },
           "photos": {
             "type": ["array", "null"],
             "items": { "type": "string" }
@@ -141,10 +137,6 @@
               "text": { "type": ["string", "null"] }
             },
             "required": ["flag", "text"]
-          },
-          "utilities_included": {
-            "type": ["array", "null"],
-            "items": { "type": "string" }
           }
         },
         "required": [
