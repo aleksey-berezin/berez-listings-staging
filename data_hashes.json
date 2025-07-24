@@ -1,59 +1,59 @@
 {
   "Berez": {
-    "listings_hash": "dae1c1b9b0114a2f97167953bd3ecf50e51157c7e083d84a6cad4156152bcda9",
+    "listings_hash": "047df937863cdf2f182bd67db6218f3ac6c849e29bf67d9ce07df39f4ca5819a",
     "schema_hash": "df45dd1e68bb225c2759fe0acac8cf44f3f27a7ea61b3418e193f60cf57c9631",
     "individual_listings": {
       "c8342eaa-d646-4bbc-8655-79df0cb73d55": {
-        "hash": "875a9b7d8ee47576ca2479f3ab0497d12e9d09b97564103ca3b5cfffbb731b3f",
-        "last_updated": "2025-07-24T04:51:02.970485Z",
+        "hash": "0677024d45672a516bdd61a05833fa8c8641a8b84334660a6372a03e9de0f0af",
+        "last_updated": "2025-07-24T05:20:51.193358Z",
         "index": 0
       },
       "13cef9b0-59d3-4292-b59e-e1f30e74d97c": {
-        "hash": "ef8f95dd5526177b05b259eab486685338fa300938047c02032101447f71f785",
-        "last_updated": "2025-07-24T04:51:02.970544Z",
+        "hash": "7f0b119d24acc6b73fe88a491b33ed6eacef875fd03fa1e72f858ac5c00f2b86",
+        "last_updated": "2025-07-24T05:20:51.193458Z",
         "index": 1
       },
       "3e934be4-3963-4c11-8373-944c848d2d5d": {
-        "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
-        "last_updated": "2025-07-24T04:51:02.970612Z",
+        "hash": "8056e70691035af8baa14b88c127954e2c3f43d0db0b751d04703b6f724973d9",
+        "last_updated": "2025-07-24T05:20:51.193548Z",
         "index": 2
       }
     },
     "total_listings": 3,
-    "last_updated": "2025-07-24T03:53:52.933610Z",
+    "last_updated": "2025-07-24T05:20:51.193958Z",
     "file_name": "berez_listings.json"
   },
   "Lincoln Court Townhomes": {
-    "listings_hash": "a610217a6f448ada7bdfb8f9ff085295662b281d170fd20e866de2c863583cf7",
-    "schema_hash": "ab902e07b02d2c09620f2b88288246cbc2c84cd6643f8a6521ce51336aad613e",
+    "listings_hash": "752238e66b8c0d745468b163b2cdbe10b41891beadadb08400bd9464d4123a8c",
+    "schema_hash": "6b6431a40b7d8b30267d21632c73734d3224b740b9c01de4800a183c7d6d633e",
     "individual_listings": {
       "13cef9b0-59d3-4292-b59e-e1f30e74d97c": {
-        "hash": "ef8f95dd5526177b05b259eab486685338fa300938047c02032101447f71f785",
-        "last_updated": "2025-07-24T04:51:02.971042Z",
+        "hash": "7f0b119d24acc6b73fe88a491b33ed6eacef875fd03fa1e72f858ac5c00f2b86",
+        "last_updated": "2025-07-24T05:20:51.194298Z",
         "index": 0
       }
     },
     "total_listings": 1,
-    "last_updated": "2025-07-24T04:26:52.499553Z",
+    "last_updated": "2025-07-24T05:20:51.194704Z",
     "file_name": "lincoln_court_townhomes_listings.json"
   },
   "459 Rock Apartments": {
-    "listings_hash": "1d086cbae5b12d891ac415f4e6fb07e9d8fe53dea347b04f6c3564464cf331d4",
-    "schema_hash": "41afef8f3c3270b1e6519627cddb6ee6e79b7fe2325c714ea0e0301c636cef25",
+    "listings_hash": "a89eb0ceca6e8c446c0f6496c8d8e294413fb97b3d29953bd44a3074c97dd4c5",
+    "schema_hash": "73ea21215dc9b30ce3ae027ab301cc40331b9e8bf144a1f901562fc63e9a3e6c",
     "individual_listings": {
       "c8342eaa-d646-4bbc-8655-79df0cb73d55": {
-        "hash": "875a9b7d8ee47576ca2479f3ab0497d12e9d09b97564103ca3b5cfffbb731b3f",
-        "last_updated": "2025-07-24T04:51:02.971473Z",
+        "hash": "0677024d45672a516bdd61a05833fa8c8641a8b84334660a6372a03e9de0f0af",
+        "last_updated": "2025-07-24T05:20:51.195160Z",
         "index": 0
       },
       "3e934be4-3963-4c11-8373-944c848d2d5d": {
-        "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
-        "last_updated": "2025-07-24T04:51:02.971522Z",
+        "hash": "8056e70691035af8baa14b88c127954e2c3f43d0db0b751d04703b6f724973d9",
+        "last_updated": "2025-07-24T05:20:51.195285Z",
         "index": 1
       }
     },
     "total_listings": 2,
-    "last_updated": "2025-07-24T04:26:52.500543Z",
+    "last_updated": "2025-07-24T05:20:51.195708Z",
     "file_name": "459_rock_apartments_listings.json"
   }
 }

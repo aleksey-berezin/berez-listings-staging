@@ -327,6 +327,15 @@
               "flag",
               "text"
             ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "property_name": {
+            "type": [
+              "string",
+              "null"
+            ]
           }
         },
         "required": [
@@ -336,7 +345,9 @@
           "rental_terms",
           "pet_policy",
           "photos",
-          "special_offer"
+          "special_offer",
+          "source",
+          "property_name"
         ]
       }
     }

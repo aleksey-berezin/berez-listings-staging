@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "_459RockApartmentsListingItem",
+  "title": "459RockApartmentsListingItem",
   "type": "object",
   "properties": {
     "scrape_date": {
@@ -327,6 +327,15 @@
               "flag",
               "text"
             ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "property_name": {
+            "type": [
+              "string",
+              "null"
+            ]
           }
         },
         "required": [
@@ -336,7 +345,9 @@
           "rental_terms",
           "pet_policy",
           "photos",
-          "special_offer"
+          "special_offer",
+          "source",
+          "property_name"
         ]
       }
     }

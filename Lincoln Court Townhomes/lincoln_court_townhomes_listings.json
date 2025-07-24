@@ -1,5 +1,5 @@
 {
-  "scrape_date": "2025-07-24T04:26:47.771Z",
+  "scrape_date": "2025-07-24T05:20:49.000696",
   "listings": [
     {
       "address": {
@@ -102,7 +102,9 @@
       "special_offer": {
         "flag": false,
         "text": null
-      }
+      },
+      "source": "berez_solid",
+      "property_name": "Lincoln Court Townhomes"
     }
   ]
 }

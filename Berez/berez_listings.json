@@ -1,5 +1,5 @@
 {
-  "scrape_date": "2025-07-24T04:26:47.771Z",
+  "scrape_date": "2025-07-24T05:20:48.999064",
   "listings": [
     {
       "address": {
@@ -96,7 +96,9 @@
       "special_offer": {
         "flag": true,
         "text": "Limited Time Offer! Tour Today - Apply Within 24 Hours and Pay No Application Fee! Plus, Get Your First Full Month FREE!"
-      }
+      },
+      "source": "berez_solid",
+      "property_name": "459 Rock Apartments"
     },
     {
       "address": {
@@ -199,7 +201,9 @@
       "special_offer": {
         "flag": false,
         "text": null
-      }
+      },
+      "source": "berez_solid",
+      "property_name": "Lincoln Court Townhomes"
     },
     {
       "address": {
@@ -295,7 +299,9 @@
       "special_offer": {
         "flag": true,
         "text": "Limited Time Offer! Tour Today - Apply Within 24 Hours and Pay No Application Fee! Plus, Get Your First Full Month FREE!"
-      }
+      },
+      "source": "berez_solid",
+      "property_name": "459 Rock Apartments"
     }
   ]
 }
