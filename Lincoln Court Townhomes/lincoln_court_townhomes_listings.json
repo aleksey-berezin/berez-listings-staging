@@ -1,5 +1,5 @@
 {
-  "scrape_date": "2025-07-24T03:53:47.709Z",
+  "scrape_date": "2025-07-24T04:26:47.771Z",
   "listings": [
     {
       "address": {
@@ -27,8 +27,7 @@
           "status": "future",
           "date": "8/11/25",
           "display": "8/11/25"
-        },
-        "floorplan_name": "2 x 1.5"
+        }
       },
       "pet_policy": {
         "pet_rent": 35,

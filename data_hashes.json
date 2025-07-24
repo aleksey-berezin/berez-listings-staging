@@ -5,17 +5,17 @@
     "individual_listings": {
       "c8342eaa-d646-4bbc-8655-79df0cb73d55": {
         "hash": "875a9b7d8ee47576ca2479f3ab0497d12e9d09b97564103ca3b5cfffbb731b3f",
-        "last_updated": "2025-07-24T04:14:13.656717Z",
+        "last_updated": "2025-07-24T04:26:52.498135Z",
         "index": 0
       },
       "13cef9b0-59d3-4292-b59e-e1f30e74d97c": {
         "hash": "ef8f95dd5526177b05b259eab486685338fa300938047c02032101447f71f785",
-        "last_updated": "2025-07-24T04:14:13.656776Z",
+        "last_updated": "2025-07-24T04:26:52.498258Z",
         "index": 1
       },
       "3e934be4-3963-4c11-8373-944c848d2d5d": {
         "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
-        "last_updated": "2025-07-24T04:14:13.656824Z",
+        "last_updated": "2025-07-24T04:26:52.498364Z",
         "index": 2
       }
     },
@@ -24,36 +24,36 @@
     "file_name": "berez_listings.json"
   },
   "Lincoln Court Townhomes": {
-    "listings_hash": "4c78262eaaa96d6f39e48211b6c66c5543e3e2e0cfbd9c2103dfc833df47f2bc",
+    "listings_hash": "a610217a6f448ada7bdfb8f9ff085295662b281d170fd20e866de2c863583cf7",
     "schema_hash": "ab902e07b02d2c09620f2b88288246cbc2c84cd6643f8a6521ce51336aad613e",
     "individual_listings": {
       "13cef9b0-59d3-4292-b59e-e1f30e74d97c": {
-        "hash": "8992e0e1a1549a65e565ba505ef1176d074f0f6407aa4ae8043b0733555a3661",
-        "last_updated": "2025-07-24T04:14:13.657271Z",
+        "hash": "ef8f95dd5526177b05b259eab486685338fa300938047c02032101447f71f785",
+        "last_updated": "2025-07-24T04:26:52.499162Z",
         "index": 0
       }
     },
     "total_listings": 1,
-    "last_updated": "2025-07-24T03:53:52.934024Z",
+    "last_updated": "2025-07-24T04:26:52.499553Z",
     "file_name": "lincoln_court_townhomes_listings.json"
   },
   "459 Rock Apartments": {
-    "listings_hash": "f1b1708fed7405df31d80cbd948431cf948d86ac858e7d50bf9e7d967174c11f",
+    "listings_hash": "1d086cbae5b12d891ac415f4e6fb07e9d8fe53dea347b04f6c3564464cf331d4",
     "schema_hash": "41afef8f3c3270b1e6519627cddb6ee6e79b7fe2325c714ea0e0301c636cef25",
     "individual_listings": {
       "c8342eaa-d646-4bbc-8655-79df0cb73d55": {
-        "hash": "89cbf3923ded2afa01209f16d1ea2dba24bf668b881be9f4d14efdbed10b0131",
-        "last_updated": "2025-07-24T04:14:13.657714Z",
+        "hash": "875a9b7d8ee47576ca2479f3ab0497d12e9d09b97564103ca3b5cfffbb731b3f",
+        "last_updated": "2025-07-24T04:26:52.500022Z",
         "index": 0
       },
       "3e934be4-3963-4c11-8373-944c848d2d5d": {
-        "hash": "f64434e931a2a6c3d6557075278e10e78897b1c0adbf2434f3c5b75324d523ba",
-        "last_updated": "2025-07-24T04:14:13.657765Z",
+        "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
+        "last_updated": "2025-07-24T04:26:52.500130Z",
         "index": 1
       }
     },
     "total_listings": 2,
-    "last_updated": "2025-07-24T03:53:52.934577Z",
+    "last_updated": "2025-07-24T04:26:52.500543Z",
     "file_name": "459_rock_apartments_listings.json"
   }
 }
