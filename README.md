@@ -4,14 +4,14 @@ Live staging data for Berez Group real estate listings.
 
 ## Status
 
-- **Last Scraped**: 2025-07-25 17:13 UTC
+- **Last Scraped**: 2025-07-25 17:39 UTC
 - **Total Listings**: 0
 
 ## Listings by Property
 
-- **Glisan Townhomes**: 0 listings (Just now), schema (19 minutes ago)
-- **Lincoln Court Townhomes**: 0 listings (Just now), schema (19 minutes ago)
-- **Roberts Court Townhomes**: 0 listings (Just now), schema (19 minutes ago)
+- **Glisan Townhomes**: 0 listings (26 minutes ago), schema (45 minutes ago)
+- **Lincoln Court Townhomes**: 0 listings (26 minutes ago), schema (45 minutes ago)
+- **Roberts Court Townhomes**: 0 listings (26 minutes ago), schema (45 minutes ago)
 
 ## Data Sources
 
