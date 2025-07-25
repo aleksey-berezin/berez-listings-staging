@@ -4,11 +4,6 @@
   "description": "Schema for Lincoln Court Townhomes property listings",
   "type": "object",
   "properties": {
-    "scrape_date": {
-      "type": "string",
-      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d+$",
-      "description": "Timestamp when the data was scraped, in ISO format without timezone"
-    },
     "listings": {
       "type": "array",
       "items": {
@@ -341,10 +336,13 @@
           "special_offer"
         ]
       }
+    },
+    "availability_status": {
+      "type": "string",
+      "description": "Indicates availability status when no listings are present"
     }
   },
   "required": [
-    "scrape_date",
     "listings"
   ]
 }
