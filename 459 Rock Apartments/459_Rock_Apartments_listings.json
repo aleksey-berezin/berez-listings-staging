@@ -1,6 +1,200 @@
 {
-  "scrape_date": "2025-07-25T01:42:36.544618",
+  "scrape_date": "2025-07-25T02:28:50.766241",
   "listings": [
+    {
+      "address": {
+        "raw": "459 SE 192nd Ave - 305, Portland, OR 97233",
+        "street_number": "459",
+        "street_name": "192nd",
+        "street_type": "Ave",
+        "unit": "305",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97233"
+      },
+      "listing_urls": {
+        "listing_id": "b51b716b-c53a-4302-8a8e-d29066a961e6",
+        "view_details_url": "https://tmgoregon.appfolio.com/listings/detail/b51b716b-c53a-4302-8a8e-d29066a961e6",
+        "apply_now_url": "https://tmgoregon.appfolio.com/listings/rental_applications/new?listable_uid=b51b716b-c53a-4302-8a8e-d29066a961e6&source=Website",
+        "schedule_showing_url": "https://tmgoregon.appfolio.com/listings/showings/new?listable_uid=b51b716b-c53a-4302-8a8e-d29066a961e6",
+        "property_website_url": "https://www.459rock.com/"
+      },
+      "unit_details": {
+        "beds": 2.0,
+        "baths": 1.0,
+        "square_feet": 929,
+        "available": {
+          "status": "future",
+          "date": "8/29/25",
+          "display": "8/29/25"
+        }
+      },
+      "pet_policy": {
+        "pets_allowed": {
+          "allowed": true,
+          "allowed_types": [
+            "cats",
+            "dogs"
+          ],
+          "weight_limit": null,
+          "size_restrictions": [
+            "small dogs only"
+          ]
+        }
+      },
+      "rental_terms": {
+        "non_smoking": false,
+        "utilities:rubs": false,
+        "rent": {
+          "amount": 1850,
+          "currency": "USD",
+          "frequency": "monthly",
+          "unit": "dollars"
+        },
+        "application_fee": {
+          "amount": 65,
+          "currency": "USD",
+          "frequency": "one_time",
+          "unit": "dollars"
+        },
+        "security_deposit": {
+          "amount": 1850,
+          "currency": "USD",
+          "frequency": "one_time",
+          "unit": "dollars"
+        }
+      },
+      "photos": [
+        "https://images.cdn.appfolio.com/tmgoregon/images/01e4b87e-8fc9-477a-b0c6-93774578c9c1/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/769268ef-c521-4608-857d-238f4d8a5a28/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/7f65464e-cc08-4870-b00a-66b1bd5a053a/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/9e69729e-f624-4127-b061-4588202c39e8/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/24ee44d7-0fd2-4b1c-81c7-5358ba16da60/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/0f53b999-cf03-4f7b-bdcd-3805b7bb45a6/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/07f0b990-d3c3-44d5-9f43-2c6eede12717/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/f63c80f1-1130-44b3-8bac-51a70c197d07/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/cdc7efa3-2d58-4c67-a794-7821673a9a03/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/75c46415-20e6-4b98-bb23-f6ecd8015e66/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/07f6c37e-79cc-430f-a73a-fbf35cc7a1ac/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/f4ab600a-ecfc-45e9-b00d-c8db710c5810/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/460e5796-7f50-4c22-9932-657a960ad1e1/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/a727af06-5942-4125-9bb3-634cb752e0ed/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/053440c1-a463-49aa-a1f4-97c907889d00/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/6e1bb7f5-4a14-42a5-aa5d-b73fef7fcc81/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/fe81f10b-f2ad-4bbc-847e-aebeb14c9edf/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/dd47752f-a087-4ac3-b457-2bac73d40703/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/806cc1ce-d385-497c-97c0-c26b0374aba4/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/06f8faf0-f564-4855-8784-c8c2282bcfdc/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/812fb417-fb5f-4f1c-9a4c-242e76d0e3c9/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/2b70af3b-9486-468c-a257-1a10318c5d13/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/40999f66-89f4-4ef6-9ce7-72fe1de801d3/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/2d02b9db-96d2-4a4f-942e-8d979210089d/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/800c52a8-a979-4e28-bd68-2410b09ca9e1/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/b24fc18f-f56b-4898-88e7-4b8d71519c97/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/01bf5798-400e-488d-af71-3f7654f0c684/original.jpg"
+      ],
+      "special_offer": {
+        "flag": true,
+        "text": "Limited Time Offer! Tour Today - Apply Within 24 Hours and Pay No Application Fee! Plus, Get Your First Full Month FREE!"
+      }
+    },
+    {
+      "address": {
+        "raw": "459 SE 192nd Ave - 507, Portland, OR 97233",
+        "street_number": "459",
+        "street_name": "192nd",
+        "street_type": "Ave",
+        "unit": "507",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97233"
+      },
+      "listing_urls": {
+        "listing_id": "c7f77972-d6b5-42df-a266-d48a9853bdf1",
+        "view_details_url": "https://tmgoregon.appfolio.com/listings/detail/c7f77972-d6b5-42df-a266-d48a9853bdf1",
+        "apply_now_url": "https://tmgoregon.appfolio.com/listings/rental_applications/new?listable_uid=c7f77972-d6b5-42df-a266-d48a9853bdf1&source=Website",
+        "schedule_showing_url": "https://tmgoregon.appfolio.com/listings/showings/new?listable_uid=c7f77972-d6b5-42df-a266-d48a9853bdf1",
+        "property_website_url": "https://459rock.com/"
+      },
+      "unit_details": {
+        "beds": 3.0,
+        "baths": 2.0,
+        "square_feet": 1312,
+        "available": {
+          "status": "future",
+          "date": "8/15/25",
+          "display": "8/15/25"
+        }
+      },
+      "pet_policy": {
+        "pets_allowed": {
+          "allowed": true,
+          "allowed_types": [
+            "cats",
+            "dogs"
+          ],
+          "weight_limit": null,
+          "size_restrictions": [
+            "small dogs only"
+          ]
+        }
+      },
+      "rental_terms": {
+        "non_smoking": false,
+        "utilities:rubs": false,
+        "rent": {
+          "amount": 1975,
+          "currency": "USD",
+          "frequency": "monthly",
+          "unit": "dollars"
+        },
+        "application_fee": {
+          "amount": 65,
+          "currency": "USD",
+          "frequency": "one_time",
+          "unit": "dollars"
+        },
+        "security_deposit": {
+          "amount": 1975,
+          "currency": "USD",
+          "frequency": "one_time",
+          "unit": "dollars"
+        }
+      },
+      "photos": [
+        "https://images.cdn.appfolio.com/tmgoregon/images/ea3ee4ca-961f-4f0e-81ea-e4c170ed41e8/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/6b09ce90-ed4e-4e95-b7c2-9df650e5db7f/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/5e69f727-3210-43d4-8cba-487706f946b9/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/bd2c32b1-07f7-4537-9e46-80ef13c5a99c/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/1ed23ff2-62e8-4ba2-af4c-dbd641db4510/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/5b944d30-5fe4-47c8-8260-667b12bea340/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/64733fb8-5320-48a3-9497-c841ecaaca7c/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/d20451ce-3852-42f3-989c-6347224b9e5c/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/591fc9eb-a9f0-4af8-a33c-11a0539c500c/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/b25dd225-b264-483f-af08-cd6c76f4df2a/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/9878f94b-5a4f-4a7c-9e0b-d8cee2cd440e/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/c88c72dc-5f9e-43bf-84c6-fb7635a6208d/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/5e717e14-74e5-4611-bc74-a6af43e71ae8/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/8a491bbf-bf83-4b6b-8110-978710956d3d/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/images/820c8e47-7361-44a2-a61b-535f2cccb662/large.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/9e859f3c-fde4-4718-b27f-15f3020e321b/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/fe81f10b-f2ad-4bbc-847e-aebeb14c9edf/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/dd47752f-a087-4ac3-b457-2bac73d40703/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/806cc1ce-d385-497c-97c0-c26b0374aba4/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/06f8faf0-f564-4855-8784-c8c2282bcfdc/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/812fb417-fb5f-4f1c-9a4c-242e76d0e3c9/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/2b70af3b-9486-468c-a257-1a10318c5d13/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/40999f66-89f4-4ef6-9ce7-72fe1de801d3/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/2d02b9db-96d2-4a4f-942e-8d979210089d/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/800c52a8-a979-4e28-bd68-2410b09ca9e1/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/b24fc18f-f56b-4898-88e7-4b8d71519c97/original.jpg",
+        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/01bf5798-400e-488d-af71-3f7654f0c684/original.jpg"
+      ],
+      "special_offer": {
+        "flag": true,
+        "text": "Limited Time Offer! Tour Today - Apply Within 24 Hours and Pay No Application Fee! Plus, Get Your First Full Month FREE!"
+      }
+    },
     {
       "address": {
         "raw": "459 SE 192nd Ave - 311, Portland, OR 97233",
@@ -274,200 +468,6 @@
         "https://images.cdn.appfolio.com/tmgoregon/images/ba64798e-6809-4928-92f9-858b69f61eb7/large.jpg",
         "https://images.cdn.appfolio.com/tmgoregon/images/fb0d03d7-778c-4102-84f3-3c495d78cbef/large.jpg",
         "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/58ee4029-6816-42f3-87c0-dc9ab5f61b0c/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/fe81f10b-f2ad-4bbc-847e-aebeb14c9edf/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/dd47752f-a087-4ac3-b457-2bac73d40703/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/806cc1ce-d385-497c-97c0-c26b0374aba4/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/06f8faf0-f564-4855-8784-c8c2282bcfdc/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/812fb417-fb5f-4f1c-9a4c-242e76d0e3c9/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/2b70af3b-9486-468c-a257-1a10318c5d13/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/40999f66-89f4-4ef6-9ce7-72fe1de801d3/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/2d02b9db-96d2-4a4f-942e-8d979210089d/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/800c52a8-a979-4e28-bd68-2410b09ca9e1/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/b24fc18f-f56b-4898-88e7-4b8d71519c97/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/01bf5798-400e-488d-af71-3f7654f0c684/original.jpg"
-      ],
-      "special_offer": {
-        "flag": true,
-        "text": "Limited Time Offer! Tour Today - Apply Within 24 Hours and Pay No Application Fee! Plus, Get Your First Full Month FREE!"
-      }
-    },
-    {
-      "address": {
-        "raw": "459 SE 192nd Ave - 305, Portland, OR 97233",
-        "street_number": "459",
-        "street_name": "192nd",
-        "street_type": "Ave",
-        "unit": "305",
-        "city": "Portland",
-        "state": "OR",
-        "zip_code": "97233"
-      },
-      "listing_urls": {
-        "listing_id": "b51b716b-c53a-4302-8a8e-d29066a961e6",
-        "view_details_url": "https://tmgoregon.appfolio.com/listings/detail/b51b716b-c53a-4302-8a8e-d29066a961e6",
-        "apply_now_url": "https://tmgoregon.appfolio.com/listings/rental_applications/new?listable_uid=b51b716b-c53a-4302-8a8e-d29066a961e6&source=Website",
-        "schedule_showing_url": "https://tmgoregon.appfolio.com/listings/showings/new?listable_uid=b51b716b-c53a-4302-8a8e-d29066a961e6",
-        "property_website_url": "https://www.459rock.com/"
-      },
-      "unit_details": {
-        "beds": 2.0,
-        "baths": 1.0,
-        "square_feet": 929,
-        "available": {
-          "status": "future",
-          "date": "8/29/25",
-          "display": "8/29/25"
-        }
-      },
-      "pet_policy": {
-        "pets_allowed": {
-          "allowed": true,
-          "allowed_types": [
-            "cats",
-            "dogs"
-          ],
-          "weight_limit": null,
-          "size_restrictions": [
-            "small dogs only"
-          ]
-        }
-      },
-      "rental_terms": {
-        "non_smoking": false,
-        "utilities:rubs": false,
-        "rent": {
-          "amount": 1850,
-          "currency": "USD",
-          "frequency": "monthly",
-          "unit": "dollars"
-        },
-        "application_fee": {
-          "amount": 65,
-          "currency": "USD",
-          "frequency": "one_time",
-          "unit": "dollars"
-        },
-        "security_deposit": {
-          "amount": 1850,
-          "currency": "USD",
-          "frequency": "one_time",
-          "unit": "dollars"
-        }
-      },
-      "photos": [
-        "https://images.cdn.appfolio.com/tmgoregon/images/01e4b87e-8fc9-477a-b0c6-93774578c9c1/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/769268ef-c521-4608-857d-238f4d8a5a28/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/7f65464e-cc08-4870-b00a-66b1bd5a053a/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/9e69729e-f624-4127-b061-4588202c39e8/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/24ee44d7-0fd2-4b1c-81c7-5358ba16da60/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/0f53b999-cf03-4f7b-bdcd-3805b7bb45a6/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/07f0b990-d3c3-44d5-9f43-2c6eede12717/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/f63c80f1-1130-44b3-8bac-51a70c197d07/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/cdc7efa3-2d58-4c67-a794-7821673a9a03/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/75c46415-20e6-4b98-bb23-f6ecd8015e66/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/07f6c37e-79cc-430f-a73a-fbf35cc7a1ac/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/f4ab600a-ecfc-45e9-b00d-c8db710c5810/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/460e5796-7f50-4c22-9932-657a960ad1e1/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/a727af06-5942-4125-9bb3-634cb752e0ed/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/053440c1-a463-49aa-a1f4-97c907889d00/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/6e1bb7f5-4a14-42a5-aa5d-b73fef7fcc81/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/fe81f10b-f2ad-4bbc-847e-aebeb14c9edf/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/dd47752f-a087-4ac3-b457-2bac73d40703/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/806cc1ce-d385-497c-97c0-c26b0374aba4/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/06f8faf0-f564-4855-8784-c8c2282bcfdc/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/812fb417-fb5f-4f1c-9a4c-242e76d0e3c9/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/2b70af3b-9486-468c-a257-1a10318c5d13/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/40999f66-89f4-4ef6-9ce7-72fe1de801d3/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/2d02b9db-96d2-4a4f-942e-8d979210089d/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/800c52a8-a979-4e28-bd68-2410b09ca9e1/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/b24fc18f-f56b-4898-88e7-4b8d71519c97/original.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/01bf5798-400e-488d-af71-3f7654f0c684/original.jpg"
-      ],
-      "special_offer": {
-        "flag": true,
-        "text": "Limited Time Offer! Tour Today - Apply Within 24 Hours and Pay No Application Fee! Plus, Get Your First Full Month FREE!"
-      }
-    },
-    {
-      "address": {
-        "raw": "459 SE 192nd Ave - 507, Portland, OR 97233",
-        "street_number": "459",
-        "street_name": "192nd",
-        "street_type": "Ave",
-        "unit": "507",
-        "city": "Portland",
-        "state": "OR",
-        "zip_code": "97233"
-      },
-      "listing_urls": {
-        "listing_id": "c7f77972-d6b5-42df-a266-d48a9853bdf1",
-        "view_details_url": "https://tmgoregon.appfolio.com/listings/detail/c7f77972-d6b5-42df-a266-d48a9853bdf1",
-        "apply_now_url": "https://tmgoregon.appfolio.com/listings/rental_applications/new?listable_uid=c7f77972-d6b5-42df-a266-d48a9853bdf1&source=Website",
-        "schedule_showing_url": "https://tmgoregon.appfolio.com/listings/showings/new?listable_uid=c7f77972-d6b5-42df-a266-d48a9853bdf1",
-        "property_website_url": "https://459rock.com/"
-      },
-      "unit_details": {
-        "beds": 3.0,
-        "baths": 2.0,
-        "square_feet": 1312,
-        "available": {
-          "status": "future",
-          "date": "8/15/25",
-          "display": "8/15/25"
-        }
-      },
-      "pet_policy": {
-        "pets_allowed": {
-          "allowed": true,
-          "allowed_types": [
-            "cats",
-            "dogs"
-          ],
-          "weight_limit": null,
-          "size_restrictions": [
-            "small dogs only"
-          ]
-        }
-      },
-      "rental_terms": {
-        "non_smoking": false,
-        "utilities:rubs": false,
-        "rent": {
-          "amount": 1975,
-          "currency": "USD",
-          "frequency": "monthly",
-          "unit": "dollars"
-        },
-        "application_fee": {
-          "amount": 65,
-          "currency": "USD",
-          "frequency": "one_time",
-          "unit": "dollars"
-        },
-        "security_deposit": {
-          "amount": 1975,
-          "currency": "USD",
-          "frequency": "one_time",
-          "unit": "dollars"
-        }
-      },
-      "photos": [
-        "https://images.cdn.appfolio.com/tmgoregon/images/ea3ee4ca-961f-4f0e-81ea-e4c170ed41e8/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/6b09ce90-ed4e-4e95-b7c2-9df650e5db7f/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/5e69f727-3210-43d4-8cba-487706f946b9/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/bd2c32b1-07f7-4537-9e46-80ef13c5a99c/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/1ed23ff2-62e8-4ba2-af4c-dbd641db4510/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/5b944d30-5fe4-47c8-8260-667b12bea340/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/64733fb8-5320-48a3-9497-c841ecaaca7c/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/d20451ce-3852-42f3-989c-6347224b9e5c/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/591fc9eb-a9f0-4af8-a33c-11a0539c500c/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/b25dd225-b264-483f-af08-cd6c76f4df2a/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/9878f94b-5a4f-4a7c-9e0b-d8cee2cd440e/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/c88c72dc-5f9e-43bf-84c6-fb7635a6208d/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/5e717e14-74e5-4611-bc74-a6af43e71ae8/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/8a491bbf-bf83-4b6b-8110-978710956d3d/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/images/820c8e47-7361-44a2-a61b-535f2cccb662/large.jpg",
-        "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/9e859f3c-fde4-4718-b27f-15f3020e321b/original.jpg",
         "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/fe81f10b-f2ad-4bbc-847e-aebeb14c9edf/original.jpg",
         "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/dd47752f-a087-4ac3-b457-2bac73d40703/original.jpg",
         "https://images.cdn.appfolio.com/tmgoregon/leads_marketing_photos/806cc1ce-d385-497c-97c0-c26b0374aba4/original.jpg",
