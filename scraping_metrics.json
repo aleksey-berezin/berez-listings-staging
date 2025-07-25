@@ -1,18 +1,18 @@
 {
-  "scrape_timestamp": "2025-07-25T19:44:39.708474+00:00",
+  "scrape_timestamp": "2025-07-25T19:45:04.543887+00:00",
   "success": true,
-  "duration": 11.784918546676636,
+  "duration": 10.277384996414185,
   "files_generated": [
     {
       "name": "lincoln_court_townhomes_listings.schema.json",
       "size": 9200,
-      "modified": "2025-07-25T19:44:38.125914+00:00",
+      "modified": "2025-07-25T19:45:02.946628+00:00",
       "path": "output/lincoln_court_townhomes_listings.schema.json"
     },
     {
       "name": "roberts_court_townhomes_listings.json",
       "size": 114,
-      "modified": "2025-07-25T19:44:38.127914+00:00",
+      "modified": "2025-07-25T19:45:02.948628+00:00",
       "path": "output/roberts_court_townhomes_listings.json",
       "listings_count": 0,
       "has_scrape_date": true
@@ -20,45 +20,45 @@
     {
       "name": "roberts_court_townhomes_listings.schema.json",
       "size": 9200,
-      "modified": "2025-07-25T19:44:38.128914+00:00",
+      "modified": "2025-07-25T19:45:02.949628+00:00",
       "path": "output/roberts_court_townhomes_listings.schema.json"
     },
     {
       "name": "459_rock_apartments_listings.schema.json",
       "size": 9189,
-      "modified": "2025-07-25T19:44:38.124914+00:00",
+      "modified": "2025-07-25T19:45:02.945628+00:00",
       "path": "output/459_rock_apartments_listings.schema.json"
     },
     {
       "name": "ci_metadata.json",
-      "size": 534,
-      "modified": "2025-07-25T19:44:39.707653+00:00",
+      "size": 538,
+      "modified": "2025-07-25T19:45:04.542646+00:00",
       "path": "output/ci_metadata.json"
     },
     {
       "name": "glisan_townhomes_listings.schema.json",
       "size": 9187,
-      "modified": "2025-07-25T19:44:38.126914+00:00",
+      "modified": "2025-07-25T19:45:02.947628+00:00",
       "path": "output/glisan_townhomes_listings.schema.json"
     },
     {
       "name": "lincoln_court_townhomes_listings.json",
       "size": 114,
-      "modified": "2025-07-25T19:44:38.124914+00:00",
+      "modified": "2025-07-25T19:45:02.945628+00:00",
       "path": "output/lincoln_court_townhomes_listings.json",
       "listings_count": 0,
       "has_scrape_date": true
     },
     {
       "name": "enhanced_metrics.json",
-      "size": 729,
-      "modified": "2025-07-25T19:44:38.122914+00:00",
+      "size": 734,
+      "modified": "2025-07-25T19:45:02.943628+00:00",
       "path": "output/enhanced_metrics.json"
     },
     {
       "name": "459_rock_apartments_listings.json",
       "size": 26277,
-      "modified": "2025-07-25T19:44:38.123914+00:00",
+      "modified": "2025-07-25T19:45:02.944628+00:00",
       "path": "output/459_rock_apartments_listings.json",
       "listings_count": 5,
       "has_scrape_date": true
@@ -66,7 +66,7 @@
     {
       "name": "glisan_townhomes_listings.json",
       "size": 114,
-      "modified": "2025-07-25T19:44:38.125914+00:00",
+      "modified": "2025-07-25T19:45:02.947628+00:00",
       "path": "output/glisan_townhomes_listings.json",
       "listings_count": 0,
       "has_scrape_date": true
@@ -83,7 +83,7 @@
     "github_sha": "1e1f975001dd9bf4d5f5bb7c86ada24c0ddac64e"
   },
   "ci_performance": {
-    "memory_usage_mb": 24.7,
+    "memory_usage_mb": 24.58,
     "disk_usage_mb": 0.06,
     "file_count": 10
   }
