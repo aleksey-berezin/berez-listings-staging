@@ -1,62 +1,96 @@
 {
-  "scrape_timestamp": "2025-07-25T16:15:46.748160+00:00",
+  "scrape_timestamp": "2025-07-25T16:37:27.315024+00:00",
   "success": true,
-  "duration": 10.536798477172852,
+  "duration": 10.485284805297852,
   "files_generated": [
     {
-      "name": "berez_listings.json",
-      "size": 26277,
-      "modified": "2025-07-25T16:15:44.509438+00:00",
-      "path": "output/berez_listings.json",
-      "listings_count": 5,
+      "name": "Glisan_Townhomes_listings.json",
+      "size": 114,
+      "modified": "2025-07-25T16:37:25.260184+00:00",
+      "path": "output/Glisan_Townhomes_listings.json",
+      "listings_count": 0,
       "has_scrape_date": true
     },
     {
       "name": "459_Rock_Apartments_listings.json",
       "size": 26277,
-      "modified": "2025-07-25T16:15:44.510438+00:00",
+      "modified": "2025-07-25T16:37:25.258184+00:00",
       "path": "output/459_Rock_Apartments_listings.json",
       "listings_count": 5,
       "has_scrape_date": true
     },
     {
       "name": "lincoln_court_townhomes_listings.schema.json",
-      "size": 9070,
-      "modified": "2025-07-25T16:15:33.587946+00:00",
+      "size": 9200,
+      "modified": "2025-07-25T16:37:15.057152+00:00",
       "path": "output/lincoln_court_townhomes_listings.schema.json"
     },
     {
       "name": "459_Rock_Apartments_listings.schema.json",
-      "size": 9062,
-      "modified": "2025-07-25T16:15:44.511438+00:00",
+      "size": 9189,
+      "modified": "2025-07-25T16:37:25.259184+00:00",
       "path": "output/459_Rock_Apartments_listings.schema.json"
     },
     {
+      "name": "Lincoln_Court_Townhomes_listings.json",
+      "size": 114,
+      "modified": "2025-07-25T16:37:25.259184+00:00",
+      "path": "output/Lincoln_Court_Townhomes_listings.json",
+      "listings_count": 0,
+      "has_scrape_date": true
+    },
+    {
+      "name": "Roberts_Court_Townhomes_listings.json",
+      "size": 114,
+      "modified": "2025-07-25T16:37:25.261184+00:00",
+      "path": "output/Roberts_Court_Townhomes_listings.json",
+      "listings_count": 0,
+      "has_scrape_date": true
+    },
+    {
       "name": "459_rock_apartments_listings.schema.json",
-      "size": 9062,
-      "modified": "2025-07-25T16:15:33.587946+00:00",
+      "size": 9189,
+      "modified": "2025-07-25T16:37:15.057152+00:00",
       "path": "output/459_rock_apartments_listings.schema.json"
     },
     {
       "name": "ci_metadata.json",
-      "size": 538,
-      "modified": "2025-07-25T16:15:46.747340+00:00",
+      "size": 534,
+      "modified": "2025-07-25T16:37:27.314191+00:00",
       "path": "output/ci_metadata.json"
     },
     {
+      "name": "Roberts_Court_Townhomes_listings.schema.json",
+      "size": 9200,
+      "modified": "2025-07-25T16:37:25.262184+00:00",
+      "path": "output/Roberts_Court_Townhomes_listings.schema.json"
+    },
+    {
+      "name": "Glisan_Townhomes_listings.schema.json",
+      "size": 9187,
+      "modified": "2025-07-25T16:37:25.261184+00:00",
+      "path": "output/Glisan_Townhomes_listings.schema.json"
+    },
+    {
+      "name": "Lincoln_Court_Townhomes_listings.schema.json",
+      "size": 9200,
+      "modified": "2025-07-25T16:37:25.260184+00:00",
+      "path": "output/Lincoln_Court_Townhomes_listings.schema.json"
+    },
+    {
       "name": "lincoln_court_townhomes_listings.json",
-      "size": 4843,
-      "modified": "2025-07-25T16:15:33.587946+00:00",
+      "size": 114,
+      "modified": "2025-07-25T16:37:15.057152+00:00",
       "path": "output/lincoln_court_townhomes_listings.json",
-      "listings_count": 1,
+      "listings_count": 0,
       "has_scrape_date": true
     },
     {
       "name": "459_rock_apartments_listings.json",
-      "size": 10495,
-      "modified": "2025-07-25T16:15:33.587946+00:00",
+      "size": 26277,
+      "modified": "2025-07-25T16:37:15.057152+00:00",
       "path": "output/459_rock_apartments_listings.json",
-      "listings_count": 2,
+      "listings_count": 5,
       "has_scrape_date": true
     }
   ],
@@ -68,11 +102,11 @@
     "github_actions": true,
     "runner_os": "Linux",
     "github_ref": "refs/heads/main",
-    "github_sha": "f76cc426c234cc8f11f4e49d9645e52249dd7fb4"
+    "github_sha": "c6c33fcfe4b62e06ab3a2f554cfea2e42515f20b"
   },
   "ci_performance": {
-    "memory_usage_mb": 24.57,
-    "disk_usage_mb": 0.09,
-    "file_count": 8
+    "memory_usage_mb": 24.81,
+    "disk_usage_mb": 0.1,
+    "file_count": 13
   }
 }
