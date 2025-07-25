@@ -4,7 +4,7 @@ Live staging data for Berez Group real estate listings.
 
 ## Status
 
-- **Last Scraped**: 2025-07-25 19:45 UTC
+- **Last Scraped**: 2025-07-25 19:49 UTC
 - **Total Listings**: 5
 
 ## Listings by Property
