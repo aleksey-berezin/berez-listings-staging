@@ -16,37 +16,37 @@
     "file_name": "lincoln_court_townhomes_listings.json"
   },
   "459 Rock Apartments": {
-    "listings_hash": "e762a98f5f49dded364f5365914fa7ee5e94393cf87b4dd3de000764ecc4d757",
+    "listings_hash": "5221a7056054ba9d37365237fdf69724d4470eadb9ecaf43cef2c81388d3ef59",
     "schema_hash": "81d8bc22b445b905ae44acc318a48b60106f72341405d2fe41c8aaf98a8f2d61",
     "individual_listings": {
-      "a7a9656c-2882-4f80-be88-32ee438a5f74": {
-        "hash": "4ddc37b1a450d0ff5fe175e7987c154dc192101b8362f1fac1adca5238e91285",
-        "last_updated": "2025-07-25T18:23:55.357415Z",
-        "index": 0
-      },
-      "3e934be4-3963-4c11-8373-944c848d2d5d": {
-        "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
-        "last_updated": "2025-07-25T18:23:55.357471Z",
-        "index": 1
-      },
       "64a7164e-3ec6-496a-91d4-383a247cf264": {
         "hash": "e7db90bddb1a6dcf4962310291982ea246f9931f4eae82274cfc1a126bd9a635",
-        "last_updated": "2025-07-25T18:23:55.357526Z",
-        "index": 2
+        "last_updated": "2025-07-25T18:56:22.804640Z",
+        "index": 0
       },
       "b51b716b-c53a-4302-8a8e-d29066a961e6": {
         "hash": "1232e32794e087b88c69be6decb6038e034a743d3fc8b0b7b94f62768d7f3892",
-        "last_updated": "2025-07-25T18:23:55.357574Z",
-        "index": 3
+        "last_updated": "2025-07-25T18:56:22.804746Z",
+        "index": 1
       },
       "c7f77972-d6b5-42df-a266-d48a9853bdf1": {
         "hash": "c573b3eb6c2b6ffcef212bfe114448b845626c86f2cd2567c8b2f8e4c692ecd0",
-        "last_updated": "2025-07-25T18:23:55.357619Z",
+        "last_updated": "2025-07-25T18:56:22.804875Z",
+        "index": 2
+      },
+      "a7a9656c-2882-4f80-be88-32ee438a5f74": {
+        "hash": "4ddc37b1a450d0ff5fe175e7987c154dc192101b8362f1fac1adca5238e91285",
+        "last_updated": "2025-07-25T18:56:22.804979Z",
+        "index": 3
+      },
+      "3e934be4-3963-4c11-8373-944c848d2d5d": {
+        "hash": "a298976e0ef3d4c391e88403f9b4726600cc021d3e1e909022e6ede114846dab",
+        "last_updated": "2025-07-25T18:56:22.805079Z",
         "index": 4
       }
     },
     "total_listings": 5,
-    "last_updated": "2025-07-25T18:23:55.357847Z",
+    "last_updated": "2025-07-25T18:56:22.805485Z",
     "file_name": "459_rock_apartments_listings.json"
   },
   "Glisan Townhomes": {
