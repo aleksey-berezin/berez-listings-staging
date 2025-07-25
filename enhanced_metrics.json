@@ -1,10 +1,10 @@
 {
-  "scrape_start_time": "2025-07-25T20:58:56.145342",
-  "scrape_end_time": "2025-07-25T20:59:02.836165",
-  "duration_seconds": 6.69,
+  "scrape_start_time": "2025-07-25T21:25:39.547043",
+  "scrape_end_time": "2025-07-25T21:25:48.029513",
+  "duration_seconds": 8.48,
   "items_scraped": 5,
-  "items_per_second": 0.75,
-  "memory_usage_mb": 76.05,
+  "items_per_second": 0.59,
+  "memory_usage_mb": 75.98,
   "success_rate": 100.0,
   "error_count": 0,
   "data_quality_score": 100.0,
@@ -17,13 +17,13 @@
     "photos": 100.0
   },
   "alerts": [],
-  "performance_score": 14.9,
+  "performance_score": 11.8,
   "sla_compliance": true,
   "data_freshness_hours": 0,
   "property_breakdown": {
     "459 Rock Apartments": 5
   },
-  "workflow_run_id": "16531483661",
+  "workflow_run_id": "16531897375",
   "triggered_by": "schedule",
   "deployment_environment": "production"
 }
